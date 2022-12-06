@@ -5,11 +5,11 @@ export default function About() {
     <section id="about">
       <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center"></div>
       <div className="container mx-auto flex md:flex-col flex-col items-center">
-        <h1 className="title-font px-10 py-5 sm:text-8xl mb-4 text-pink-900 font-bold text-center">
+        <h1 className="title-font py-5 sm:text-8xl mb-4 text-pink-900 font-bold text-center">
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
         </h1>
-        <p className="mb-8 px-10 py-5 sm:text-1xl text-black leading-relaxed text-center">
+        <p className="mb-8 py-5 sm:text-1xl text-black leading-relaxed text-center">
           Welcome to Truck Club at Virginia Tech. We are a student-run
           organization for people who <br></br>
           share a passion for trucks. We are here to serve the community and
@@ -29,7 +29,7 @@ export default function About() {
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
       />
-      <div className="container w-max mx-auto py-20 flex-col items-center bg-pink-900">
+      <div className="container mx-auto flex md:flex-col flex-col items-center bg-pink-900">
         <h1 className="title-font px-10 text-6xl mb-4 text-white font-bold text-center">
           FEATURED ITEM
         </h1>
