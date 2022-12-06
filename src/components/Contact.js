@@ -42,7 +42,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full appearance-none bg-transparent border-none text-black"
+              className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
@@ -50,7 +50,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full appearance-none bg-transparent border-none text-black"
+              className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"
             />
@@ -60,7 +60,7 @@ export default function Contact() {
               type="text"
               id="subject"
               name="subject"
-              className="w-full appearance-none bg-transparent border-none text-black"
+              className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Subject"
             />
@@ -69,7 +69,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full appearance-none bg-transparent border-none text-black"
+              className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Type your message here..."
             />
