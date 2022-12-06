@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
-      <div className="container bg-[url('../banner.webp')]">
+      <div className="container bg-[url('../public/banner.jpg')]  bg-cover bg-center bg-fixed">
       </div>
     </section>
   );
