@@ -3,6 +3,8 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
+      <div className="container h-px mx-auto flex px-10 py-5 bg-white items-center">
+      </div>
       <div className="container mx-auto flex px-10 py-5 md:flex-col flex-col items-center">
         <h1 className="title-font sm:text-8xl mb-4 text-pink-900 font-bold text center">
           TRUCK CLUB AT <br></br>
@@ -16,14 +18,12 @@ export default function About() {
           to join. You do not need to know about trucks or own one to participate. We will host many <br></br>
           events including meet-ups, tailgates, cruises, and more.
         </p>
+        <img
+          className="object-cover object-center max-w-full h-auto"
+          alt="banner"
+          src="../banner.webp"
+        />
       </div>
-      <div className="container items-center">
-          <img
-            className="object-cover object-center max-w-full h-auto"
-            alt="banner"
-            src="../banner.webp"
-          />
-        </div>
     </section>
   );
 }
