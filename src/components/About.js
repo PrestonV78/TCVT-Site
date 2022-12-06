@@ -29,7 +29,7 @@ export default function About() {
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
       />
-      <div className="container w-max mx-auto flex px-0 py-20 flex-col items-center bg-pink-900">
+      <div className="container w-max mx-auto flex px-10 py-20 flex-col items-center bg-pink-900">
         <h1 className="title-font px-10 text-6xl mb-4 text-white font-bold text-center">
           FEATURED ITEM
         </h1>
@@ -51,6 +51,7 @@ export default function About() {
           that a lot of kids will<br></br>
           have a lot of awesome toys this Christmas season!
         </p>
+        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <img
           class="mx-auto w-1/2 h-auto "
           alt="banner"
