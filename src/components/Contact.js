@@ -73,12 +73,9 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+              className="w-full appearance-none bg-transparent border-none h-150 text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type your message here...
-              
-              
-              "
+              placeholder="Type your message here..."
             />
           </div>
           <div className="container h-2 mx-auto flex px-10 "></div>
