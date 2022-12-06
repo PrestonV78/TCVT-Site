@@ -6,7 +6,7 @@ export default function About() {
       <div className="container h-px mx-auto flex px-10 py-5 bg-white items-center">
       </div>
       <div className="container md:flex-col flex-col items-center">
-        <h1 className="title-font px-10 py-5 sm:text-8xl mb-4 text-pink-900 font-bold text center">
+        <h1 className="title-font px-10 py-5 sm:text-8xl mb-4 text-pink-900 font-bold text-center">
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
         </h1>
@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
         <img
-          className="px-0 py-0 object-cover object-center max-w-full h-auto"
+          className="px-0 py-0 object-cover max-w-full h-auto"
           alt="banner"
           src="../banner.webp"
         />
