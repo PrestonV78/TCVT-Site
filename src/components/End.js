@@ -4,7 +4,7 @@ export default function End() {
   return (
     <section id="end" className="relative">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-row w-full">
           <img
             class="mx-auto max-w-full h-auto"
             alt="fb"
@@ -31,7 +31,7 @@ export default function End() {
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
           />
         </div>
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full mb-10">
           <p className="mb-8 leading-relaxed">
             Copyright 2023 Truck Club at Virginia Tech
           </p>
