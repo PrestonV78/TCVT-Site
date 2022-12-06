@@ -38,15 +38,14 @@ export default function Contact() {
           </h2>
           <div className="relative mb-4 text-left">
             <label htmlFor="name" className="leading-7 text-sm text-black">
-              Name
+              <span>Name</span>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                onChange={(e) => setName(e.target.value)}/>
             </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
-            />
           </div>
           <div className="relative mb-4 text-left">
             <label htmlFor="email" className="leading-7 text-sm text-black">
@@ -73,9 +72,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4 text-left">
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-black">
+            <label htmlFor="message" className="leading-7 text-sm text-black">
               Type your message here...
             </label>
             <textarea
@@ -87,7 +84,8 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover: rounded text-lg">
+            className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover: rounded text-lg"
+          >
             Submit
           </button>
         </form>
