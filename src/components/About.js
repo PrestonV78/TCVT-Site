@@ -31,12 +31,14 @@ export default function About() {
       />
       <div className="container py-30 mx-auto flex-col items-center bg-pink-900 max-w-full">
         <div className="container h-20 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font px-10 sm:text-8xl text-3xl mb-4 text-white font-bold text-center ">
+        <h1 className="title-font px-10 sm:text-6xl text-3xl mb-4 text-white font-bold text-center ">
           FEATURED ITEM
         </h1>
+        <div className="container h-20 mx-auto flex px-10 py-5 "></div>
         <h1 className="title-font px-10 sm:text-5xl text-3xl mb-4 text-white font-semibold text-center ">
           TCVT ADOPTS A HIGHWAY
         </h1>
+        <div className="container h-20 mx-auto flex px-10 py-5 "></div>
         <p className="mb-8 px-10 sm:text-2xl text-lg text-white leading-relaxed text-center">
           Helping Cleanup 460<br></br>
           <br></br>
@@ -58,7 +60,7 @@ export default function About() {
           alt="banner"
           src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/highway.webp"
         />
-        <div className="container h-20 mx-auto flex px-10 py-5 "></div>
+        <div className="container h-40 mx-auto flex px-10 py-5 "></div>
       </div>
     </section>
   );
