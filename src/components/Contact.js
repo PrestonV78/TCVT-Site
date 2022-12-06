@@ -32,27 +32,28 @@ export default function Contact() {
           netlify
           name="Contact"
           onSubmit={handleSubmit}
-          className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
           <div className="relative w-1/2 flex items-center border-b border-pink-900 py-2">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full appearance-none bg-transparent border-none"
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Name"/>
-          </div>
-          <div className="relative w-1/2 flex items-center border-b border-pink-900 py-2">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="w-full appearance-none bg-transparent border-none"
+              onChange={(e) => setName(e.target.value)}
+              placeholder="Name"
+            />
             <input
               type="email"
               id="email"
               name="email"
               className="w-full appearance-none bg-transparent border-none "
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Email"/>
+              placeholder="Email"
+            />
           </div>
           <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <input
@@ -61,15 +62,17 @@ export default function Contact() {
               name="subject"
               className="w-full appearance-none bg-transparent border-none "
               onChange={(e) => setSubject(e.target.value)}
-              placeholder="Subject"/>
+              placeholder="Subject"
+            />
           </div>
           <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <textarea
               id="message"
               name="message"
-              className="w-full h-1/3 appearance-none bg-transparent border-none "
+              className="w-full appearance-none bg-transparent border-none "
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type your message here..."/>
+              placeholder="Type your message here..."
+            />
           </div>
           <button
             type="submit"
