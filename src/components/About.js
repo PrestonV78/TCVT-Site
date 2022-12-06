@@ -9,7 +9,7 @@ export default function About() {
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
         </h1>
-        <p className="mb-8 py-5 sm:text-5xl text-2xl text-black leading-relaxed text-center">
+        <p className="mb-8 py-5 sm:text-3xl text-xl text-black leading-relaxed text-center">
           Welcome to Truck Club at Virginia Tech. We are a student-run
           organization for people who <br></br>
           share a passion for trucks. We are here to serve the community and
@@ -31,13 +31,13 @@ export default function About() {
       />
       <div className="container py-30 mx-auto flex-col items-center bg-pink-900 max-w-full">
         <div className="container h-20 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font px-10 sm:text-5xl text-3xl mb-4 text-white font-bold text-center ">
+        <h1 className="title-font px-10 sm:text-8xl text-3xl mb-4 text-white font-bold text-center ">
           FEATURED ITEM
         </h1>
-        <h1 className="title-font px-10 sm:text-5xl text-4xl mb-4 text-white font-semibold text-center ">
+        <h1 className="title-font px-10 sm:text-5xl text-3xl mb-4 text-white font-semibold text-center ">
           TCVT ADOPTS A HIGHWAY
         </h1>
-        <p className="mb-8 px-10 sm:text-5xl text-2xl text-white leading-relaxed text-center">
+        <p className="mb-8 px-10 sm:text-4xl text-2xl text-white leading-relaxed text-center">
           Helping Cleanup 460<br></br>
           <br></br>
           TCVT has joined the Adopt A Highway program in the state of Virginia!
