@@ -9,7 +9,7 @@ export default function About() {
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
         </h1>
-        <p className="mb-8 py-5 sm:text-5xl text-3xl text-black leading-relaxed text-center">
+        <p className="mb-8 py-5 sm:text-5xl text-8xl text-black leading-relaxed text-center">
           Welcome to Truck Club at Virginia Tech. We are a student-run
           organization for people who <br></br>
           share a passion for trucks. We are here to serve the community and
