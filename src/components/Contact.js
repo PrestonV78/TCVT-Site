@@ -46,7 +46,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
-            <div className="relative w-10 flex items-center border-white"></div>
+            <div className="relative w-10 flex items-center border-b border-white"></div>
             <input
               type="email"
               id="email"
@@ -68,7 +68,7 @@ export default function Contact() {
             />
           </div>
           <div className="container h-5 mx-auto flex px-10 py-5 "></div>
-          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2 h-30">
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2 h-150">
             <textarea
               id="message"
               name="message"
