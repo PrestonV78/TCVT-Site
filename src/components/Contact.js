@@ -37,7 +37,7 @@ export default function Contact() {
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
-          <div className="relative w-full flex items-center border-b border-pink-900 py-5">
+          <div className="relative w-full flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
               id="name"
@@ -46,7 +46,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
-            <div className="relative w-5 flex items-center border-none"></div>
+            <div className="relative w-10 flex items-center border-white"></div>
             <input
               type="email"
               id="email"
@@ -56,7 +56,8 @@ export default function Contact() {
               placeholder="Email"
             />
           </div>
-          <div className="relative mb-4 flex items-center border-b border-pink-900 py-5">
+          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
               id="subject"
@@ -66,7 +67,8 @@ export default function Contact() {
               placeholder="Subject"
             />
           </div>
-          <div className="relative mb-4 flex items-center border-b border-pink-900 py-5">
+          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2 h-30">
             <textarea
               id="message"
               name="message"
@@ -75,6 +77,7 @@ export default function Contact() {
               placeholder="Type your message here..."
             />
           </div>
+          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
           <button
             type="submit"
             className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover: rounded text-lg"
