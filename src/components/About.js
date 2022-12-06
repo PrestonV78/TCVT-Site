@@ -19,13 +19,11 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
-      <div className="container bg-white">
-        <img
-          class="max-w-full h-auto"
-          alt="banner"
-          src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
-        />
-      </div>
+      <img
+        class="mx-auto max-w-full h-auto "
+        alt="banner"
+        src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
+      />
     </section>
   );
 }
