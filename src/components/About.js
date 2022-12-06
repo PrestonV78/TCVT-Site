@@ -18,6 +18,8 @@ export default function About() {
           to join. You do not need to know about trucks or own one to participate. We will host many <br></br>
           events including meet-ups, tailgates, cruises, and more.
         </p>
+      </div>
+      <div className="container h-10 mx-auto flex px-10 py-5 bg-white items-center">
         <img
           className="w-full h-auto"
           alt="banner"
