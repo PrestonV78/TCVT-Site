@@ -41,7 +41,7 @@ export default function End() {
             />
           </a>
         </div>
-        <div className="flex flex-col w-full mb-10">
+        <div className="flex flex-col w-full mb-5">
           <p className="mb-8 leading-relaxed text-black">
             Copyright 2023 Truck Club at Virginia Tech
           </p>
