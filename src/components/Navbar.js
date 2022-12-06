@@ -3,10 +3,8 @@ import React from "react";
 export default function Navbar() {
   return (
     <header className="bg-black md:sticky top-0 z-10">
-      <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center w-96">
         <img
-          height={"10%"}
-          width={"auto"}
           className="object-cover object-center rounded"
           alt="badge"
           src="../Logo.svg"
