@@ -22,7 +22,7 @@ export default function About() {
       <div
         class="
 		    bg-no-repeat bg-cover bg-center
-		    bg-[url('../banner.webp')]">
+		    bg-[url('https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp')]">
       </div>
     </section>
   );
