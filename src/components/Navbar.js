@@ -15,7 +15,7 @@ export default function Navbar() {
             TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
-      <div className="container mx-auto flex px-1 py-3 bg-white md:flex-row flex-col items-center h-px">
+      <div className="container h-px mx-auto flex px-1 py-3 bg-white md:flex-row flex-col items-center">
       </div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base text-center justify-center">
