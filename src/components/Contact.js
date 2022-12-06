@@ -46,9 +46,7 @@ export default function Contact() {
               name="name"
               className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
-            > 
-              Name
-            </input>
+            />
           </div>
           <div className="relative mb-4 text-left">
             <label htmlFor="email" className="leading-7 text-sm text-black">
