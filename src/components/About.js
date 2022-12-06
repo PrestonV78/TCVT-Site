@@ -38,7 +38,7 @@ export default function About() {
         <h1 className="title-font px-10 sm:text-5xl text-3xl mb-4 text-white font-semibold text-center ">
           TCVT ADOPTS A HIGHWAY
         </h1>
-        <div className="container h-20 mx-auto flex px-10 py-5 "></div>
+        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <p className="mb-8 px-10 sm:text-2xl text-lg text-white leading-relaxed text-center">
           Helping Cleanup 460<br></br>
           <br></br>
