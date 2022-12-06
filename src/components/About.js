@@ -11,15 +11,15 @@ export default function About() {
         </h1>
         <p className="mb-8 py-5 sm:text-2xl text-md text-black leading-relaxed text-center">
           Welcome to Truck Club at Virginia Tech. We are a student-run
-          organization for people who <br></br>
+          organization for people who 
           share a passion for trucks. We are here to serve the community and
-          provide a space where <br></br>
+          provide a space where 
           trucks become a vessel for positive change. We strive to establish a
-          culture of respect, hard <br></br>
+          culture of respect, hard 
           work, and family among our members. We encourage people of all
-          interests and backgrounds <br></br>
+          interests and backgrounds 
           to join. You do not need to know about trucks or own one to
-          participate. We will host many <br></br>
+          participate. We will host many 
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
@@ -41,15 +41,15 @@ export default function About() {
           Helping Cleanup 460<br></br>
           <br></br>
           TCVT has joined the Adopt A Highway program in the state of Virginia!
-          The organization has<br></br>
+          The organization has
           officially adopted Route 460 from Southgate to Tom's Creek in
-          Montgomery County totaling<br></br>
+          Montgomery County totaling
           3.0 miles. By adopting this section of highway, TCVT agrees to keep it
-          cleared of litter for a<br></br>
+          cleared of litter for a
           three-year period by performing at least two successful pickups in one
-          calendar year. We, of<br></br>
+          calendar year. We, of
           course, intend to perform more pickups. your support and we are glad
-          that a lot of kids will<br></br>
+          that a lot of kids will
           have a lot of awesome toys this Christmas season!
         </p>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
