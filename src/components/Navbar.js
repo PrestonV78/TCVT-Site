@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="bg-black md:sticky top-0 z-10">
       <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
         <img
-          height={160}
+          height={16}
           className="object-cover object-center rounded"
           alt="badge"
           src="../Logo.svg"
