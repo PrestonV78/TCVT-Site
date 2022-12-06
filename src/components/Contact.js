@@ -49,7 +49,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="affiliation" className="leading-7 text-sm text-black">
+            <label htmlFor="email" className="leading-7 text-sm text-black">
               Email
             </label>
             <input
@@ -62,7 +62,7 @@ export default function Contact() {
           </div>
           <div className="relative mb-4 text-left">
             <label htmlFor="subject" className="leading-7 text-sm text-black">
-              Email
+              Subject
             </label>
             <input
               type="text"
