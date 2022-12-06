@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <header className="bg-black md: top-0 z-10">
-      <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center w-80">
+      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-80">
         <img
           className="object-cover object-center rounded"
           alt="badge"
@@ -17,11 +17,8 @@ export default function Navbar() {
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center">
       </div>
-      <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
+      <div className="container mx-auto flex p-3 flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-20 md:pl-4 flex flex-wrap justify-between">
-          <a className="mr-15 text-black">
-            ......................................
-          </a>
           <a href="#about" className="mr-5 hover:text-white">
             Home
           </a>
