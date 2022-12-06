@@ -37,12 +37,12 @@ export default function Contact() {
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
-          <div className="relative w-1/2 flex items-center border-b border-pink-900 py-2">
+          <div className="relative w-full flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full appearance-none bg-transparent border-none"
+              className="w-full appearance-none bg-transparent border-none text-black"
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
@@ -50,7 +50,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full appearance-none bg-transparent border-none "
+              className="w-full appearance-none bg-transparent border-none text-black"
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"
             />
@@ -60,7 +60,7 @@ export default function Contact() {
               type="text"
               id="subject"
               name="subject"
-              className="w-full appearance-none bg-transparent border-none "
+              className="w-full appearance-none bg-transparent border-none text-black"
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Subject"
             />
@@ -69,7 +69,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full appearance-none bg-transparent border-none "
+              className="w-full appearance-none bg-transparent border-none text-black"
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Type your message here..."
             />
