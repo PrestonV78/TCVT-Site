@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
-      <div className="container h-px mx-auto flex px-10 py-5 bg-white items-center">
+      <div className="container h-10 mx-auto flex px-10 py-5 bg-white items-center">
       </div>
       <div className="container mx-auto flex md:flex-col flex-col items-center">
         <h1 className="title-font px-10 py-5 sm:text-8xl mb-4 text-pink-900 font-bold text-center">
@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
         <img
-          className="max-w-full h-auto"
+          className="w-full h-auto"
           alt="banner"
           src="../banner.webp"
         />
