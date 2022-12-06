@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className="container bg-white">
         <img
-          className="w-full h-auto"
+          className="object-fill w-full h-auto"
           alt="banner"
           src="../banner.webp"
         />
