@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
         <img
-          className="object-cover object-center max-w-full h-auto"
+          className="px-0 py-0 object-cover object-center max-w-full h-auto"
           alt="banner"
           src="../banner.webp"
         />
