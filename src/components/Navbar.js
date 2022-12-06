@@ -11,7 +11,7 @@ export default function Navbar() {
         />
       </div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-3xl text-3xl mb-4 text-white font-bold">
+        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-bold">
             TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
