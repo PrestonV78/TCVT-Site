@@ -30,7 +30,7 @@ export default function Contact() {
       <div className="container mx-auto flex flex-wrap px-10 py-20">
         <form
           netlify
-          name="test"
+          name="Contact"
           onSubmit={handleSubmit}
           className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
@@ -41,7 +41,7 @@ export default function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full appearance-none bg-transparent border-none"
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Name"/>
           </div>
@@ -50,7 +50,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full appearance-none bg-transparent border-none "
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"/>
           </div>
@@ -59,7 +59,7 @@ export default function Contact() {
               type="text"
               id="subject"
               name="subject"
-              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full appearance-none bg-transparent border-none "
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Subject"/>
           </div>
@@ -67,7 +67,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full h-1/3 appearance-none bg-transparent border-none "
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Type your message here..."/>
           </div>
