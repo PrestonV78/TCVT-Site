@@ -5,7 +5,7 @@ export default function End() {
     <section id="end" className="relative">
       <div className="container mx-auto text-center items-center px-5 py-10">
         <div className="container mx-auto w-max-full flex flex-row text-center items-center">
-        <div className="container px-50 w-max-full flex flex-row text-center items-center"></div>
+        <div className="container px-1/3 w-max-full flex flex-row text-center items-center"></div>
           <a href="https://www.facebook.com/truckclubatvt/">
             <img
               class="mx-auto"
