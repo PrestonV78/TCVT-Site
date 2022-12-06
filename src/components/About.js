@@ -6,11 +6,11 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
       </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-col flex-col items-center">
-        <h1 className="title-font sm:text-8xl mb-4 text-pink-900 font-semibold">
+        <h1 className="title-font sm:text-8xl mb-4 text-pink-900 font-semibold text center">
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
         </h1>
-        <p className="mb-8 sm:text-2xl text-black leading-relaxed">
+        <p className="mb-8 sm:text-2xl text-black leading-relaxed text-center">
           Welcome to Truck Club at Virginia Tech. We are a student-run organization for people who <br></br>
           share a passion for trucks. We are here to serve the community and provide a space where <br></br>
           trucks become a vessel for positive change. We strive to establish a culture of respect, hard <br></br>
@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
-      <div className="container mx-auto flex md:flex-row flex-col items-center">
+      <div className="container mx-0 flex md:flex-row flex-col items-center">
           <img
             className="object-none object-center rounded"
             alt="banner"
