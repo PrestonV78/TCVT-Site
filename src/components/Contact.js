@@ -44,7 +44,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-white rounded border border-black focus:border-purple-500 focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -56,19 +56,19 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white rounded border border-black focus:border-purple-500 focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="email" className="leading-7 text-sm text-black">
+            <label htmlFor="subject" className="leading-7 text-sm text-black">
               Email
             </label>
             <input
               type="text"
               id="subject"
               name="subject"
-              className="w-full bg-white rounded border border-black focus:border-purple-500 focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setSubject(e.target.value)}
             />
           </div>
@@ -81,7 +81,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-white rounded border border-black focus:border-purple-500 focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
