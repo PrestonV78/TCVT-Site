@@ -26,7 +26,7 @@ export default function About() {
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
       />
-      <div className="container mx-auto flex px-0 py-20 md:flex-col flex-col items-center bg-pink-900">
+      <div className="container mx-auto flex px-0 py-20 flex-col items-center bg-pink-900">
         <h1 className="title-font px-10 text-6xl mb-4 text-white font-bold text-center">
           FEATURED ITEM
         </h1>
