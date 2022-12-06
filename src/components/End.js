@@ -3,8 +3,8 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
-      <div className="container text-center items-center px-5 py-10">
-        <div className="container flex flex-row mx-auto text-center items-center px-5 py-10">
+      <div className="container mx-auto text-center items-center px-5 py-10">
+        <div className="container mx-auto flex flex-row text-center items-center">
           <a href="https://www.facebook.com/truckclubatvt/">
             <img
               class="mx-auto max-w-full h-auto"
