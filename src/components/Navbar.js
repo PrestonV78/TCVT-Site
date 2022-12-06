@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <header className="bg-black md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <img
           className="object-cover object-center rounded"
           alt="badge"
