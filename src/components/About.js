@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-15 md:flex-col flex-col items-center">
+      <div className="container mx-auto flex px-10 py-5 md:flex-col flex-col items-center">
         <h1 className="title-font sm:text-8xl mb-4 text-pink-900 font-bold text center">
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
