@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className="container bg-white">
         <img
-          class="w-100 h-auto object-cover"
+          class="w-200 h-auto object-cover"
           alt="banner"
           src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
         />
