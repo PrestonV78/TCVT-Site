@@ -11,13 +11,13 @@ export default function Navbar() {
         />
       </div>
       <div className="container px-5 py-2 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-bold">
+        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-semibold">
             TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
-      <div className="container mx-auto flex px-1 py-1 bg-white md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-1 py-3 bg-white md:flex-row flex-col items-center h-0.5">
       </div>
-      <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base text-center justify-center">
           <a href="#about" className="mr-5 hover:text-white">
             Home
