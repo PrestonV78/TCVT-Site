@@ -19,9 +19,9 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
-      <div className="container  items-center">
+      <div className="container items-center">
           <img
-            className="object-fill object-center rounded"
+            className="object-fill object-center"
             alt="banner"
             src="../banner.webp"
           />
