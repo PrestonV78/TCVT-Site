@@ -19,7 +19,7 @@ export default function About() {
           events including meet-ups, tailgates, cruises, and more.
         </p>
       </div>
-      <div className="container h-10 mx-0 flex py-5 bg-white items-center">
+      <div className="container bg-white items-center">
         <img
           className="w-full h-auto"
           alt="banner"
