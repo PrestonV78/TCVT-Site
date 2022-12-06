@@ -46,7 +46,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
-            <div className="relative w-1/20 flex items-center"></div>
+            <div className="relative w-5 flex items-center"></div>
             <input
               type="email"
               id="email"
