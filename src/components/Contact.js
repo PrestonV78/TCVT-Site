@@ -37,7 +37,7 @@ export default function Contact() {
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
-          <div className="relative w-full flex items-center border-b border-pink-900 py-2">
+          <div className="relative w-full flex items-center border-b border-pink-900 py-5">
             <input
               type="text"
               id="name"
@@ -46,7 +46,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
               placeholder="Name"
             />
-            <div className="relative w-5 flex items-center"></div>
+            <div className="relative w-5 flex items-center border-none"></div>
             <input
               type="email"
               id="email"
@@ -56,7 +56,7 @@ export default function Contact() {
               placeholder="Email"
             />
           </div>
-          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-5">
             <input
               type="text"
               id="subject"
@@ -66,7 +66,7 @@ export default function Contact() {
               placeholder="Subject"
             />
           </div>
-          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-5">
             <textarea
               id="message"
               name="message"
