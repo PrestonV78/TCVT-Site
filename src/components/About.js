@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
-      <div className="container h-10 mx-auto flex px-10 py-5 bg-white items-center">
+      <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center">
       </div>
       <div className="container mx-auto flex md:flex-col flex-col items-center">
         <h1 className="title-font px-10 py-5 sm:text-8xl mb-4 text-pink-900 font-bold text-center">
@@ -27,13 +27,13 @@ export default function About() {
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
       />
       <div className="container mx-auto flex px-0 py-20 md:flex-col flex-col items-center bg-pink-900">
-        <h1 className="title-font px-10 py-5 text-6xl mb-4 text-white font-bold text-center">
+        <h1 className="title-font px-10 text-6xl mb-4 text-white font-bold text-center">
           FEATURED ITEM
         </h1>
-        <h1 className="title-font px-10 py-5 text-4xl mb-4 text-white font-semibold text-center">
+        <h1 className="title-font px-10 text-4xl mb-4 text-white font-semibold text-center">
           TCVT ADOPTS A HIGHWAY
         </h1>
-        <p className="mb-8 px-10 py-5 text-2xl text-white leading-relaxed text-center">
+        <p className="mb-8 px-10 text-2xl text-white leading-relaxed text-center">
           Helping Cleanup 460<br></br><br></br>
           TCVT has joined the Adopt A Highway program in the state of Virginia! The organization has<br></br>
           officially adopted Route 460 from Southgate to Tom's Creek in Montgomery County totaling<br></br>
