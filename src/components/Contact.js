@@ -27,7 +27,7 @@ export default function Contact() {
 
   return (
     <section id="Contact" className="relative">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
+      <div className="container mx-auto flex flex-wrap px-10 py-20 text-center items-center">
         <form
           netlify
           name="test"
@@ -36,9 +36,7 @@ export default function Contact() {
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
-          <div className="relative mb-4 text-left">
-            <label htmlFor="name" className="leading-7 text-sm text-black">
-              <span>Name</span>
+          <div className="relative w-1/2  mb-4 text-left">
               <input
                 type="text"
                 id="name"
@@ -46,12 +44,8 @@ export default function Contact() {
                 className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Name"/>
-            </label>
           </div>
-          <div className="relative mb-4 text-left">
-            <label htmlFor="email" className="leading-7 text-sm text-black">
-              Email
-            </label>
+          <div className="relative w-1/2 mb-4 text-left">
             <input
               type="email"
               id="email"
@@ -61,9 +55,6 @@ export default function Contact() {
               placeholder="Email"/>
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="subject" className="leading-7 text-sm text-black">
-              Subject
-            </label>
             <input
               type="text"
               id="subject"
@@ -73,9 +64,6 @@ export default function Contact() {
               placeholder="Subject"/>
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="message" className="leading-7 text-sm text-black">
-              Type your message here...
-            </label>
             <textarea
               id="message"
               name="message"
