@@ -34,9 +34,10 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
+          <h2 className="text-pink-900 sm:text-7xl font-semibold text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
+          <div className="container h-2 mx-auto flex px-10 py-5 "></div>
           <div className="relative w-full flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
@@ -56,7 +57,7 @@ export default function Contact() {
               placeholder="Email"
             />
           </div>
-          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="container h-2 mx-auto flex px-10 py-5 "></div>
           <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
@@ -67,7 +68,7 @@ export default function Contact() {
               placeholder="Subject"
             />
           </div>
-          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="container h-2 mx-auto flex px-10 py-5 "></div>
           <div className="relative mb-4 flex items-center border-b border-pink-900 py-2 h-150">
             <textarea
               id="message"
@@ -77,7 +78,7 @@ export default function Contact() {
               placeholder="Type your message here..."
             />
           </div>
-          <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="container h-2 mx-auto flex px-10 py-5 "></div>
           <button
             type="submit"
             className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover: rounded text-lg"
