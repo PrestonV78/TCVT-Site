@@ -44,7 +44,8 @@ export default function Contact() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                onChange={(e) => setName(e.target.value)}/>
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Name"/>
             </label>
           </div>
           <div className="relative mb-4 text-left">
@@ -57,7 +58,7 @@ export default function Contact() {
               name="email"
               className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
-            />
+              placeholder="Email"/>
           </div>
           <div className="relative mb-4 text-left">
             <label htmlFor="subject" className="leading-7 text-sm text-black">
@@ -69,7 +70,7 @@ export default function Contact() {
               name="subject"
               className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setSubject(e.target.value)}
-            />
+              placeholder="Subject"/>
           </div>
           <div className="relative mb-4 text-left">
             <label htmlFor="message" className="leading-7 text-sm text-black">
@@ -80,7 +81,7 @@ export default function Contact() {
               name="message"
               className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
-            />
+              placeholder="Type your message here..."/>
           </div>
           <button
             type="submit"
