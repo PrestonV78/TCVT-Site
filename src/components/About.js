@@ -5,7 +5,7 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
       </div>
-      <div className="container mx-auto flex px-10 py-20 md:flex-col flex-col items-center">
+      <div className="container mx-auto flex px-10 py-10 md:flex-col flex-col items-center">
         <h1 className="title-font sm:text-8xl mb-4 text-pink-900 font-bold text center">
           TRUCK CLUB AT <br></br>
           VIRGINIA TECH
@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className="container items-center">
           <img
-            className="object-fill object-center"
+            className="object-fill"
             alt="banner"
             src="../banner.webp"
           />
