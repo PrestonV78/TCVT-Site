@@ -18,8 +18,8 @@ export default function Navbar() {
       <div className="container mx-auto flex px-1 py-1 bg-white md:flex-row flex-col items-center">
       </div>
       <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
-          <a href="#about" className="sm:text-5xl text-3xl mr-5 hover:text-white">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base text-center justify-center">
+          <a href="#about" className="mr-5 hover:text-white">
             Home
           </a>
           <a href="#projects" className="mr-5 hover:text-white">
