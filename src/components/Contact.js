@@ -27,7 +27,7 @@ export default function Contact() {
 
   return (
     <section id="Contact" className="relative">
-      <div className="container mx-auto flex flex-wrap px-10 py-20 text-center items-center">
+      <div className="container mx-auto flex flex-wrap px-10 py-20">
         <form
           netlify
           name="test"
@@ -36,38 +36,38 @@ export default function Contact() {
           <h2 className="text-pink-900 sm:text-7xl text-3xl mb-1 title-font text-center">
             Contact TCVT
           </h2>
-          <div className="relative w-1/2  mb-4 text-left">
+          <div className="relative w-1/2 flex items-center border-b border-pink-900 py-2">
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Name"/>
           </div>
-          <div className="relative w-1/2 mb-4 text-left">
+          <div className="relative w-1/2 flex items-center border-b border-pink-900 py-2">
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"/>
           </div>
-          <div className="relative mb-4 text-left">
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <input
               type="text"
               id="subject"
               name="subject"
-              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Subject"/>
           </div>
-          <div className="relative mb-4 text-left">
+          <div className="relative mb-4 flex items-center border-b border-pink-900 py-2">
             <textarea
               id="message"
               name="message"
-              className="w-full bg-white rounded border border-white focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full appearance-none bg-transparent border-none focus:border-black focus:ring-2 focus:ring-black text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Type your message here..."/>
           </div>
