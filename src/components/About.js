@@ -25,11 +25,11 @@ export default function About() {
       </div>
       <div className="container h-10 mx-auto flex px-10 py-5 bg-white items-center"></div>
       <img
-        class="mx-auto max-w-full h-auto "
+        class="mx-auto max-w-full h-auto"
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/banner.webp"
       />
-      <div className="container mx-auto flex md:flex-col flex-col items-center bg-pink-900">
+      <div className="container py-30 mx-auto flex-col items-center bg-pink-900 max-w-full">
         <h1 className="title-font px-10 text-6xl mb-4 text-white font-bold text-center">
           FEATURED ITEM
         </h1>
