@@ -10,9 +10,9 @@ export default function Navbar() {
           src="../Logo.svg"
         />
       </div>
-      <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
-        <h1 className="title-font sm:text-7xl text-3xl mb-4 text-white">
-            Truck Club at Virginia Tech
+      <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col text-center">
+        <h1 className="title-font sm:text-7xl text-3xl mb-4 text-white font-bold">
+            TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
       <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
