@@ -23,7 +23,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="banner"
-            src="../banner.jpg"
+            src="../banner.webp"
           />
         </div>
     </section>
