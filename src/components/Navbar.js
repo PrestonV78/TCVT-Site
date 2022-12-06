@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center">
       </div>
       <div className="container mx-auto flex p-3 flex-row justify-between">
-        <nav className="mx-auto py-1 flex flex-row justify-between text-center">
+        <nav className="px-20 py-1 flex flex-row justify-between text-center">
           <a href="#about" className="mr-5 hover:text-white">
             Home
           </a>
