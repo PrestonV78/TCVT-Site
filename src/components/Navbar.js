@@ -53,6 +53,8 @@ export default function Navbar() {
             More
           </a>
         </nav>
+        <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center">
+        </div>
       </div>
     </header>
   );
