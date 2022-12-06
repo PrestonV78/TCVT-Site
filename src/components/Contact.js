@@ -75,7 +75,10 @@ export default function Contact() {
               name="message"
               className="w-full appearance-none bg-transparent border-none text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type your message here..."
+              placeholder="Type your message here...
+              
+              
+              "
             />
           </div>
           <div className="container h-2 mx-auto flex px-10 "></div>
