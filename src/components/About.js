@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className="container mx-auto flex md:flex-row flex-col items-center">
           <img
-            className="object-cover object-center rounded"
+            className="object-none object-center rounded"
             alt="banner"
             src="../banner.webp"
           />
