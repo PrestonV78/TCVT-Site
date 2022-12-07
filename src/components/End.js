@@ -3,7 +3,7 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
-      <div className="container flex flex-col w-full text-center items-center px-5 py-10 mr-5">
+      <div className="container flex flex-row w-full text-center items-center px-5 py-10 mr-5">
           <a href="https://www.facebook.com/truckclubatvt/">
             <img
               class=""
@@ -40,7 +40,7 @@ export default function End() {
             />
           </a>
       </div>
-      <div className="flex mx-auto w-full mb-5 text-center items-center px-5 py-10">
+      <div className="container mx-auto w-full mb-5 text-center items-center px-5 py-10">
         <p className="mb-8 leading-relaxed text-black">
           Copyright 2023 Truck Club at Virginia Tech
         </p>
