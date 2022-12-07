@@ -1,6 +1,6 @@
 {
-  "short_name": "Argon Design System React",
-  "name": "Argon Design System React by Creative Tim",
+  "short_name": "TCVT Website",
+  "name": "Truck Club at Virginia Tech Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +8,8 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#5D3FD3",
   "background_color": "#ffffff"
 }
