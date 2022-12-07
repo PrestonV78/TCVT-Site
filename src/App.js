@@ -11,6 +11,8 @@ import Donate from "./pages/Donate";
 import More from "./pages/More";
 import Navbar from "./components/Navbar/Navbar";
 import End from "./pages/End";
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 
 function App() {
   return (
