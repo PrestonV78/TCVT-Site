@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
-          <a href="#" className="mr-5 hover:text-white">
+          <a href="#home" className="mr-5 hover:text-white">
             Home
           </a>
           <a href="#about" className="mr-5 hover:text-white">
