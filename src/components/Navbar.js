@@ -19,34 +19,34 @@ export default function Navbar() {
       </div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
-          <a href="#about" className="mr-5 hover:text-white">
+          <a href="#" className="mr-5 hover:text-white">
             Home
           </a>
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a href="#about" className="mr-5 hover:text-white">
             About/History
           </a>
-          <a href="#experience" className="mr-5 hover:text-white">
+          <a href="#officers" className="mr-5 hover:text-white">
             Officers
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#events" className="mr-5 hover:text-white">
             Calendar/Events
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#services" className="mr-5 hover:text-white">
             Services
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Auto Fest
+          <a href="#autofest" className="mr-5 hover:text-white">
+            AutoFest
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#sponsors" className="mr-5 hover:text-white">
             Sponsors
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#community" className="mr-5 hover:text-white">
             Community Action
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#donate" className="mr-5 hover:text-white">
             Donate
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#more" className="mr-5 hover:text-white">
             More
           </a>
         </nav>
