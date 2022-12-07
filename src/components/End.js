@@ -4,8 +4,6 @@ export default function End() {
   return (
     <section id="end" className="relative">
       <div className="container flex-row text-center items-center px-5 py-10">
-        <div className="container w-1/4 flex flex-row text-center items-center"></div>
-        <div className="container w-1/2 flex flex-row text-center items-center">
           <a href="https://www.facebook.com/truckclubatvt/">
             <img
               class="mr-5"
@@ -41,10 +39,8 @@ export default function End() {
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
             />
           </a>
-        </div>
-        <div className="container w-1/4 flex flex-row text-center items-center"></div>
       </div>
-      <div className="flex mx-auto flex-col w-full mb-5">
+      <div className="flex mx-auto flex-col w-full mb-5 text-center items-center px-5 py-10">
         <p className="mb-8 leading-relaxed text-black">
           Copyright 2023 Truck Club at Virginia Tech
         </p>
