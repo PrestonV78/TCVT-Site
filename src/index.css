@@ -113,10 +113,10 @@ ul{
   .nav{
       max-height: none;
       top: 0;
-      position: fixed;
+      position: relative;
       float: right;
       width: fit-content;
-      background-color: black;
+      background-color: transparent;
   }
   .menu li{
       float: left;
