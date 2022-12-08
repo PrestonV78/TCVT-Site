@@ -40,7 +40,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/"
+                href="/"
               >
                 Home
               </a>
@@ -49,7 +49,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/about"
+                href="/about"
               >
                 About/History
               </a>
@@ -58,7 +58,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/officers"
+                href="/officers"
               >
                 Officers
               </a>
@@ -67,7 +67,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/events"
+                href="/events"
               >
                 Calendar/Events
               </a>
@@ -76,7 +76,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/services"
+                href="/services"
               >
                 Services
               </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/autofest"
+                href="/autofest"
               >
                 AutoFest
               </a>
@@ -94,7 +94,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/sponsors"
+                href="/sponsors"
               >
                 Sponsors
               </a>
@@ -103,7 +103,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/community"
+                href="/community"
               >
                 Community Action
               </a>
@@ -112,7 +112,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/donate"
+                href="/donate"
               >
                 Donate
               </a>
@@ -121,7 +121,7 @@ export default function Navbar() {
               <a
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/more"
+                href="/more"
               >
                 More
               </a>
