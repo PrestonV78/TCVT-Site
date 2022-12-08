@@ -6,3 +6,7 @@
     font-family: "HelloZone";
     src: url("./HelloZone.otf");
   }
+
+  li {
+    list-style-type: none;
+  }

@@ -10,7 +10,7 @@ const linkStyle = {
 export default function Navbar() {
   return (
     <header className="bg-black md: top-0 z-10">
-      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-80">
+      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-90">
         <img
           className="object-cover object-center rounded"
           alt="badge"
@@ -18,24 +18,24 @@ export default function Navbar() {
         />
       </div>
       <div className="container px-5 py-2 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-semibold">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 text-white font-semibold">
           TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="flex items-center justify-between flex-row p-6">
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/">
               Home
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/about">
               About/History
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink
               className=" text-white text-sm"
               style={linkStyle}
@@ -44,12 +44,12 @@ export default function Navbar() {
               Officers
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/events">
               Calendar/Events
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink
               className=" text-white text-sm"
               style={linkStyle}
@@ -58,7 +58,7 @@ export default function Navbar() {
               Services
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink
               className=" text-white text-sm"
               style={linkStyle}
@@ -67,7 +67,7 @@ export default function Navbar() {
               AutoFest
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink
               className=" text-white text-sm"
               style={linkStyle}
@@ -76,7 +76,7 @@ export default function Navbar() {
               Sponsors
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink
               className=" text-white text-sm"
               style={linkStyle}
@@ -85,12 +85,12 @@ export default function Navbar() {
               Community Action
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/donate">
               Donate
             </NavLink>
           </li>
-          <li className="nav-item list-style-type: none">
+          <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/more">
               More
             </NavLink>
