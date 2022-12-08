@@ -31,13 +31,11 @@ export default function About() {
           TCVT HISTORY
         </h1>
         <div className="container h-20 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font px-10 sm:text-5xl text-3xl mb-4 text-white font-semibold text-center ">
+        <h1 className="title-font px-10 sm:text-3xl text-xl mb-4 text-white font-semibold text-center ">
           Using Trucks as a Vessel for Positive Change
         </h1>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
-        <p className="mb-8 px-10 sm:text-2xl text-lg text-white leading-relaxed text-center">
-          Helping Cleanup 460<br></br>
-          <br></br>
+        <p className="mb-8 px-20 sm:text-2xl text-lg text-white leading-relaxed text-center">
           Truck Club at Virginia Tech started off as an idea from Sebastian
           Buenaño. As a sophomore, Sebastian had already been part of multiple
           organizations and clubs on campus but he always dreamed about starting
@@ -67,7 +65,7 @@ export default function About() {
         </p>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <img
-          class="mx-auto w-1/2 h-auto "
+          class="mx-auto w-3/5 h-auto "
           alt="banner"
           src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/chl.webp"
         />
