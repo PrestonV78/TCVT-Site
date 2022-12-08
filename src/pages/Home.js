@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="home flex flex-col mx-auto items-center py-12 gap-12">
       <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center"></div>
       <div className="container mx-auto flex flex-col items-center">
         <h1 className="title-font py-5 sm:text-7xl text-3xl mb-4 text-pink-900 font-bold text-center">
