@@ -24,7 +24,7 @@ export default function Navbar() {
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between">
-        <nav className="flex items-center text-center justify-between flex-wrap flex-col md:flex-row py-3">
+        <nav className="flex items-center text-center justify-between flex-wrap md:flex-row py-3">
           <li className="nav-item">
             <NavLink
               className=" text-white text-sm text-center"
