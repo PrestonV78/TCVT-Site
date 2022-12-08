@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="About" className="relative">
       <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center"></div>
-      <div className="container mx-auto flex flex-col items-center">
+      <div className="container mt-5 mx-auto flex flex-col items-center">
         <h1 className="title-font sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
           ABOUT US
         </h1>
