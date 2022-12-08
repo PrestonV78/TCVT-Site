@@ -10,7 +10,7 @@ const linkStyle = {
 export default function Navbar() {
   return (
     <header className="bg-black md: top-5 z-10">
-      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-85">
+      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-1/2">
         <img
           className="object-cover object-center rounded"
           alt="badge"
@@ -26,12 +26,20 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="flex items-center text-center justify-between flex-row p-6">
           <li className="nav-item">
-            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/">
+            <NavLink
+              className=" text-white text-sm text-center"
+              style={linkStyle}
+              to="/"
+            >
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/about">
+            <NavLink
+              className=" text-white text-sm text-center"
+              style={linkStyle}
+              to="/about"
+            >
               About/History
             </NavLink>
           </li>
@@ -45,7 +53,11 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/events">
+            <NavLink
+              className=" text-white text-sm text-center"
+              style={linkStyle}
+              to="/events"
+            >
               Calendar/Events
             </NavLink>
           </li>
@@ -86,18 +98,25 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/donate">
+            <NavLink
+              className=" text-white text-sm text-center"
+              style={linkStyle}
+              to="/donate"
+            >
               Donate
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/more">
+            <NavLink
+              className=" text-white text-sm text-center"
+              style={linkStyle}
+              to="/more"
+            >
               More
             </NavLink>
           </li>
         </nav>
       </div>
-      <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center"></div>
     </header>
   );
 }
