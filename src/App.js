@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import End from "./components/End";
@@ -14,6 +14,7 @@ import Sponsors from "./pages/Sponsors";
 import Community from "./pages/Community";
 import Donate from "./pages/Donate";
 import More from "./pages/More";
+
 
 const navigationTabs = [
   {
