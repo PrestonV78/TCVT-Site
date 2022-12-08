@@ -23,8 +23,8 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
-      <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
-        <nav className="flex items-center text-center justify-between flex-row p-6">
+      <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between">
+        <nav className="flex items-center text-center justify-between flex-row">
           <li className="nav-item">
             <NavLink
               className=" text-white text-sm text-center"
