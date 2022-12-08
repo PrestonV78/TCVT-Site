@@ -23,8 +23,14 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
+      {/* <!-- Hamburger icon --> */}
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu">
+        <span class="hamb-line"></span>
+      </label>
+
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between">
-        <nav className="flex items-center text-center justify-between flex-wrap md:flex-row py-3">
+        <nav class="nav" className="flex items-center text-center justify-between flex-wrap md:flex-row py-3">
           <li className="nav-item">
             <NavLink
               className=" text-white text-sm text-center"
