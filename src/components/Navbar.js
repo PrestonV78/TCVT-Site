@@ -31,6 +31,7 @@ export default function Navbar() {
 
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between">
         <nav class="nav" className="flex items-center text-center justify-between flex-wrap md:flex-row py-3">
+        <ul class="menu">
           <li className="nav-item">
             <NavLink
               className=" text-white text-sm text-center"
@@ -121,6 +122,7 @@ export default function Navbar() {
               More
             </NavLink>
           </li>
+          </ul>
         </nav>
       </div>
     </header>
