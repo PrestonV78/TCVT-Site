@@ -10,7 +10,7 @@ const linkStyle = {
 export default function Navbar() {
   return (
     <header className="bg-black md: top-0 z-10">
-      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-90">
+      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-80">
         <img
           className="object-cover object-center rounded"
           alt="badge"
@@ -24,7 +24,7 @@ export default function Navbar() {
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
-        <nav className="flex items-center justify-between flex-row p-6">
+        <nav className="flex items-center text-center justify-between flex-row p-6">
           <li className="nav-item">
             <NavLink className=" text-white text-sm" style={linkStyle} to="/">
               Home
