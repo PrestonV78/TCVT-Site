@@ -20,52 +20,52 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/home" >
+                <NavLink className="mr-5 hover:text-white" to="/" >
             Home
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/about">
+                <NavLink className="mr-5 hover:text-white" to="/about">
             About/History
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/officers">
+                <NavLink className="mr-5 hover:text-white" to="/officers">
             Officers
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/events">
+                <NavLink className="mr-5 hover:text-white" to="/events">
             Calendar/Events
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/services">
+                <NavLink className="mr-5 hover:text-white" to="/services">
             Services
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/autofest">
+                <NavLink className="mr-5 hover:text-white" to="/autofest">
             AutoFest
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/sponsors">
+                <NavLink className="mr-5 hover:text-white" to="/sponsors">
             Sponsors
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/community">
+                <NavLink className="mr-5 hover:text-white" to="/community">
             Community Action
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/donate">
+                <NavLink className="mr-5 hover:text-white" to="/donate">
             Donate
           </NavLink>
               </li>
            <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white nav-link" to="/more">
+                <NavLink className="mr-5 hover:text-white" to="/more">
             More
           </NavLink>
               </li>
