@@ -63,7 +63,7 @@ export default function Home() {
           TCVT ADOPTS A HIGHWAY
         </h1>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
-        <p className="mb-8 px-10 sm:text-2xl text-lg text-white leading-relaxed text-center">
+        <p className="mb-8 px-20 sm:text-2xl text-lg text-white leading-relaxed text-center">
           Helping Cleanup 460<br></br>
           <br></br>
           TCVT has joined the Adopt A Highway program in the state of Virginia!

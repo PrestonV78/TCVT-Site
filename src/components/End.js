@@ -3,7 +3,7 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
-      <div className="container mx-auto flex flex-wrap tp-5 justify-between">
+      <div className="container mx-auto flex flex-wrap tp-5">
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
             class="mx-5"
@@ -41,7 +41,7 @@ export default function End() {
         </a>
       </div>
       <div className="container mx-auto w-full mb-5 text-center items-center px-5 py-10">
-        <p className="leading-relaxed text-black">
+        <p className="text-sm text-black">
           ©2022 by Truck Club at Virginia Tech
         </p>
       </div>

@@ -35,7 +35,7 @@ export default function About() {
           Using Trucks as a Vessel for Positive Change
         </h1>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
-        <p className="mb-8 px-20 sm:text-2xl text-lg text-white leading-relaxed text-center">
+        <p className="mb-8 px-20 text-md text-white leading-relaxed text-center">
           Truck Club at Virginia Tech started off as an idea from Sebastian
           Buenaño. As a sophomore, Sebastian had already been part of multiple
           organizations and clubs on campus but he always dreamed about starting
