@@ -35,7 +35,7 @@ ul{
 }
 .menu a{
   display: block;
-  padding: 30px;
+  padding: 3px;
   color: var(--white);
 }
 .menu a:hover{
