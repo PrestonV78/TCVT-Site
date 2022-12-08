@@ -9,8 +9,8 @@ const linkStyle = {
 
 export default function Navbar() {
   return (
-    <header className="bg-black md: top-0 z-10">
-      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-80">
+    <header className="bg-black md: top-5 z-10">
+      <div className="container mx-auto flex px-5 py-2 flex-row items-center w-85">
         <img
           className="object-cover object-center rounded"
           alt="badge"
@@ -18,7 +18,7 @@ export default function Navbar() {
         />
       </div>
       <div className="container px-5 py-2 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 text-white font-semibold">
+        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-semibold">
           TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
@@ -26,18 +26,18 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="flex items-center text-center justify-between flex-row p-6">
           <li className="nav-item">
-            <NavLink className=" text-white text-sm" style={linkStyle} to="/">
+            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm" style={linkStyle} to="/about">
+            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/about">
               About/History
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              className=" text-white text-sm"
+              className=" text-white text-sm text-center"
               style={linkStyle}
               to="/officers"
             >
@@ -45,13 +45,13 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm" style={linkStyle} to="/events">
+            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/events">
               Calendar/Events
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              className=" text-white text-sm"
+              className=" text-white text-sm text-center"
               style={linkStyle}
               to="/services"
             >
@@ -60,7 +60,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className=" text-white text-sm"
+              className=" text-white text-sm text-center"
               style={linkStyle}
               to="/autofest"
             >
@@ -69,7 +69,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className=" text-white text-sm"
+              className=" text-white text-sm text-center"
               style={linkStyle}
               to="/sponsors"
             >
@@ -78,7 +78,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className=" text-white text-sm"
+              className=" text-white text-sm text-center"
               style={linkStyle}
               to="/community"
             >
@@ -86,12 +86,12 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm" style={linkStyle} to="/donate">
+            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/donate">
               Donate
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className=" text-white text-sm" style={linkStyle} to="/more">
+            <NavLink className=" text-white text-sm text-center" style={linkStyle} to="/more">
               More
             </NavLink>
           </li>
