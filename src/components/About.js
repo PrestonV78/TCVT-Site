@@ -5,10 +5,10 @@ export default function About() {
     <section id="About" className="relative">
       <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center"></div>
       <div className="container mx-auto flex flex-col items-center">
-        <h1 className="title-font py-5 sm:text-7xl text-3xl mb-4 text-pink-900 font-bold text-center">
-          About Us
+        <h1 className="title-font py-5 sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
+          ABOUT US
         </h1>
-        <p className="mb-8 py-5 sm:text-2xl text-md text-black leading-relaxed text-center">
+        <p className="mb-8 py-5 sm:text-xl text-md text-black leading-relaxed text-center">
           Truck Club at Virginia Tech was founded as a Registered Student
           Organization at Virginia Tech on October 13, 2020. We have grown from
           just 5 members to well over 50 members in one year! Our goal is to
