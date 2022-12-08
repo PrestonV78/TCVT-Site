@@ -4,26 +4,23 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="relative  bg-pink-900">
-      <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
       <img
         class="mx-auto max-w-full h-auto"
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Team.webp"
       />
+      <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-5xl text-2xl mb-4 text-white font-bold text-center">
-        MEET THE TEAM
+        <h1 className="title-font sm:text-6xl text-3xl mb-4 text-white font-bold text-center">
+          MEET THE TEAM
         </h1>
-        <p className="mb-8 px-20 sm:text-xl text-md text-white leading-relaxed text-center">
-        The Faces of Our Organization
+        <p className="mb-8 px-20 sm:text-2xl text-lg text-white leading-relaxed text-center">
+          The Faces of Our Organization
         </p>
+        <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
         <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-            <a
-              href={officer.link}
-              key={officer.image}
-              className="w-1/3 p-4"
-            >
+            <a href={officer.link} key={officer.image} className="w-1/3 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
