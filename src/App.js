@@ -15,7 +15,6 @@ import Community from "./pages/Community";
 import Donate from "./pages/Donate";
 import More from "./pages/More";
 
-
 const navigationTabs = [
   {
     name: Home,
@@ -61,24 +60,28 @@ const navigationTabs = [
 
 export default function App() {
   return (
-    <main className="bg-white text-gray-400 body-font">
-      <Navbar />
-      <Routes>
-        {navigationTabs.map((tab, idx) => {
-          return (
-            <Route
-              key={idx}
-              path={tab.path}
-              element={
-                <tab.name
-                // searchTerm={searchTerm} setSearchTerm={setSearchTerm} handleSearch={handleSearch}
+    <div className="bg-darkBlue text-white font-outfit py-6">
+      <div className="flex flex-col lg:flex-row max-w-7xl xl:max-w-[150rem] mx-auto min-h-screen">
+        <Navbar />
+        <main className="bg-white text-gray-400 body-font">
+          <Routes>
+            {navigationTabs.map((tab, idx) => {
+              return (
+                <Route
+                  key={idx}
+                  path={tab.path}
+                  element={
+                    <tab.name
+                    // searchTerm={searchTerm} setSearchTerm={setSearchTerm} handleSearch={handleSearch}
+                    />
+                  }
                 />
-              }
-            />
-          );
-        })}
-      </Routes>
+              );
+            })}
+          </Routes>
+        </main>
+      </div>
       <End />
-    </main>
+    </div>
   );
 }
