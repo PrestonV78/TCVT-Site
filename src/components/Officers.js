@@ -4,8 +4,7 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="relative">
-      <div className="container mx-auto flex bg-pink-900 items-center">
-      <div className="container h-10 mx-auto flex px-10 py-5 bg-pink-900 items-center"></div>
+      <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
       <img
         class="mx-auto max-w-full h-auto"
         alt="banner"
@@ -46,7 +45,6 @@ export default function Officers() {
             </a>
           ))}
         </div>
-      </div>
       </div>
     </section>
   );
