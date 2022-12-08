@@ -7,10 +7,6 @@
   src: url("./HelloZone.otf");
 }
 
-li {
-  list-style-type: none;
-}
-
 /* Reset */
 *{
   margin: 0;
