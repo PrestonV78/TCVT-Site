@@ -1,6 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: 'blue'
+};
+
 export default function Navbar() {
   return (
     <header className="bg-black md: top-0 z-10">
@@ -19,56 +25,56 @@ export default function Navbar() {
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/" >
-            Home
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/about">
-            About/History
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/officers">
-            Officers
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/events">
-            Calendar/Events
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/services">
-            Services
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/autofest">
-            AutoFest
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/sponsors">
-            Sponsors
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/community">
-            Community Action
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/donate">
-            Donate
-          </NavLink>
-              </li>
-           <li className="nav-item">
-                <NavLink className="mr-5 hover:text-white" to="/more">
-            More
-          </NavLink>
-              </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/">
+              Home
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/about">
+              About/History
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/officers">
+              Officers
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/events">
+              Calendar/Events
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/services">
+              Services
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/autofest">
+              AutoFest
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/sponsors">
+              Sponsors
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/community">
+              Community Action
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/donate">
+              Donate
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="mr-5 text-white" style={linkStyle}  to="/more">
+              More
+            </NavLink>
+          </li>
         </nav>
         <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center"></div>
       </div>
