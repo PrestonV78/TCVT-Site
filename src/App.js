@@ -15,7 +15,7 @@ import Community from "./pages/Community";
 import Donate from "./pages/Donate";
 import More from "./pages/More";
 
-export default function App() {
+function App() {
   return (
     <>
       <Navbar />
@@ -37,3 +37,5 @@ export default function App() {
     </>
   );
 }
+
+export default App;
