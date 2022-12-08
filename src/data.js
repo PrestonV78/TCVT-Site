@@ -4,7 +4,7 @@ export const officers = [
     subtitle: "President",
     description:
       "Civil and Environmental Engineering, May 2024",
-    image: "./Sebastian2.jpeg",
+    image: "./Seb.jpeg",
     link: "mailto:sebastianb23@vt.edu",
   },
   {
