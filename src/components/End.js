@@ -3,7 +3,7 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
-      <div className="container mx-auto flex flex-wrap tp-10">
+      <div className="container mx-auto flex flex-wrap justify-items-center tp-10">
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
             class=""
