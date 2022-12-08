@@ -4,7 +4,7 @@ export const officers = [
     subtitle: "President",
     description:
       "Civil and Environmental Engineering, May 2024",
-    image: "./Sebastian2.webp",
+    image: "./Sebastian2.jpeg",
     link: "mailto:sebastianb23@vt.edu",
   },
   {
@@ -12,7 +12,7 @@ export const officers = [
     subtitle: "Vice President",
     description:
       "Construction Engineering And Management, May 2024",
-    image: "./Ryan.webp",
+    image: "./Ryan.jpeg",
     link: "mailto:rdvogt9@vt.edu",
   },
   {
@@ -20,7 +20,7 @@ export const officers = [
     subtitle: "Secretary",
     description:
       "Mechanical Engineering, May 2025",
-    image: "./Ben.webp",
+    image: "./Ben.jpeg",
     link: "mailto:thompsonb16@vt.edu",
   },
   {
@@ -28,7 +28,7 @@ export const officers = [
     subtitle: "Treasurer",
     description:
     "Construction Engineering Management, December 2023",    
-    image: "./Zach.webp",
+    image: "./Zach.jpeg",
     link: "mailto:zachspeizer@vt.edu",
   },
   {
@@ -36,7 +36,7 @@ export const officers = [
     subtitle: "Chief Social Media Manager",
     description:
       "HNEF, May 2023",
-    image: "./Kylee.webp",
+    image: "./Kylee.jpeg",
     link: "mailto:kyleemoose@vt.edu",
   },
   {
@@ -44,7 +44,7 @@ export const officers = [
     subtitle: "Chief Marketing Manager",
     description:
       "Computer Science, May 2023 ",
-    image: "./Preston.webp",
+    image: "./Preston.jpeg",
     link: "mailto:prestonv@vt.edu",
   },
   {
@@ -52,7 +52,7 @@ export const officers = [
     subtitle: "Sponsors Relations Liaison",
     description:
       "Nanomedicine, May 2024",
-    image: "./Erb.webp",
+    image: "./Erb.jpeg",
     link: "mailto:michealerb27@vt.edu",
   },
   {
@@ -60,7 +60,7 @@ export const officers = [
     subtitle: "Alumni Relations Liaison",
     description:
       "Computational Modeling and Data Analytics, May 2023",
-    image: "./Wayne.webp",
+    image: "./Wayne.jpeg",
     link: "mailto:jeeper98@vt.edu",
   },
 ];

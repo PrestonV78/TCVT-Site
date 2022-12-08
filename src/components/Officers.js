@@ -22,7 +22,7 @@ export default function Officers() {
             <a
               href={officer.link}
               key={officer.image}
-              className="sm:w-1/2 w-100 p-4"
+              className="w-1/3 p-4"
             >
               <div className="flex relative">
                 <img
