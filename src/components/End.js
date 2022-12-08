@@ -6,35 +6,35 @@ export default function End() {
       <div className="container mx-auto flex flex-wrap tp-10">
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
-            class="mx-5"
+            class=""
             alt="fb"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Facebook.webp"
           />
         </a>
         <a href="https://www.linkedin.com/groups/9170257/">
           <img
-            class="mx-5"
+            class=""
             alt="ln"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/LinkedIn.webp"
           />
         </a>
         <a href="https://www.instagram.com/truckclubatvt/">
           <img
-            class="mx-5"
+            class=""
             alt="ig"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Instagram.webp"
           />
         </a>
         <a href="https://www.youtube.com/channel/UCvT9FXcNgF0oYMBc0bdStZw?view_as=subscriber">
           <img
-            class="mx-5"
+            class=""
             alt="yt"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/YouTube.webp"
           />
         </a>
         <a href="https://linktr.ee/truckclubatvt">
           <img
-            class="mx-5"
+            class=""
             alt="link"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
           />

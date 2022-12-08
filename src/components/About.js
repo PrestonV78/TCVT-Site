@@ -71,6 +71,7 @@ export default function About() {
         />
         <div className="container h-40 mx-auto flex px-10 py-5 "></div>
       </div>
+      <div className="container h-10 mx-auto flex px-10 py-5 bg-white"></div>
     </section>
   );
 }
