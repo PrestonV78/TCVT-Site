@@ -1,29 +1,29 @@
 import React from "react";
 
 export default function Home() {
-  const [name, setName] = React.useState("");
-  const [subject, setSubject] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  // const [name, setName] = React.useState("");
+  // const [subject, setSubject] = React.useState("");
+  // const [email, setEmail] = React.useState("");
+  // const [message, setMessage] = React.useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //     )
+  //     .join("&");
+  // }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "Contact", name, subject, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: encode({ "form-name": "Contact", name, subject, email, message }),
+  //   })
+  //     .then(() => alert("Message sent!"))
+  //     .catch((error) => alert(error));
+  // }
 
   return (
     <div className="home flex flex-col mx-auto items-center py-12 gap-12">
@@ -86,7 +86,7 @@ export default function Home() {
         />
         <div className="container h-40 mx-auto flex px-10 py-5 "></div>
       </div>
-      <div className="container mx-auto flex flex-wrap px-10 py-20">
+      {/* <div className="container mx-auto flex flex-wrap px-10 py-20">
         <form
           netlify
           name="Contact"
@@ -145,7 +145,7 @@ export default function Home() {
             Submit
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
