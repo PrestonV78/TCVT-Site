@@ -3,7 +3,7 @@ import { officers } from "../data";
 
 export default function Officers() {
   return (
-    <section id="officers" className="relative">
+    <section id="officers" className="relative  bg-pink-900">
       <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
       <img
         class="mx-auto max-w-full h-auto"
