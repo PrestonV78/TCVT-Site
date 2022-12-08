@@ -43,7 +43,7 @@ export default function Officers() {
           ))}
         </div>
       </div>
-      <div className="container h-10 w-max mx-auto flex px-10 py-5 bg-white"></div>
+      <div className="container h-10 mx-auto flex py-5 bg-white"></div>
     </section>
   );
 }
