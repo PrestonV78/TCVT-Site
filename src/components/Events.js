@@ -5,7 +5,7 @@ export default function Events() {
 
   return (
     <section id="Events" className="relative">
-      Events Page
+      <h1 class="font-weight-light">Events Page</h1>
     </section>
   );
 }

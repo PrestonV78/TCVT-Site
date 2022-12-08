@@ -5,7 +5,7 @@ export default function Officers() {
 
   return (
     <section id="Officers" className="relative">
-      Officers Page
+      <h1 class="font-weight-light">Officers Page</h1>
     </section>
   );
 }

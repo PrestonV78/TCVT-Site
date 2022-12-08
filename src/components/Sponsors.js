@@ -5,7 +5,7 @@ export default function Sponsors() {
 
   return (
     <section id="Sponsors" className="relative">
-      Sponsors Page
+      <h1 class="font-weight-light">Sponsors Page</h1>
     </section>
   );
 }

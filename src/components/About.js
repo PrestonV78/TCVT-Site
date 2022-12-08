@@ -5,7 +5,8 @@ export default function About() {
 
   return (
     <section id="About" className="relative">
-      About Page
+      <h1 class="font-weight-light">
+        About Page</h1>
     </section>
   );
 }

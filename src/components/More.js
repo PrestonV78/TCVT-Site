@@ -5,7 +5,7 @@ export default function More() {
 
   return (
     <section id="More" className="relative">
-      More Page
+      <h1 class="font-weight-light">More Page</h1>
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -12,46 +13,64 @@ export default function Navbar() {
       </div>
       <div className="container px-5 py-2 mx-auto text-center lg:px-40">
         <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-semibold">
-            TRUCK CLUB AT VIRGINIA TECH
+          TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
-      <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center">
-      </div>
+      <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
-          <a href="#home" className="mr-5 hover:text-white">
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/home" >
             Home
-          </a>
-          <a href="#about" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/about">
             About/History
-          </a>
-          <a href="#officers" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/officers">
             Officers
-          </a>
-          <a href="#events" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/events">
             Calendar/Events
-          </a>
-          <a href="#services" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/services">
             Services
-          </a>
-          <a href="#autofest" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/autofest">
             AutoFest
-          </a>
-          <a href="#sponsors" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/sponsors">
             Sponsors
-          </a>
-          <a href="#community" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/community">
             Community Action
-          </a>
-          <a href="#donate" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/donate">
             Donate
-          </a>
-          <a href="#more" className="mr-5 hover:text-white">
+          </NavLink>
+              </li>
+           <li className="nav-item">
+                <NavLink className="mr-5 hover:text-white nav-link" to="/more">
             More
-          </a>
+          </NavLink>
+              </li>
         </nav>
-        <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center">
-        </div>
+        <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center"></div>
       </div>
     </header>
   );
