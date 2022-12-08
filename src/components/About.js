@@ -8,7 +8,7 @@ export default function About() {
         <h1 className="title-font py-5 sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
           ABOUT US
         </h1>
-        <p className="mb-8 py-5 sm:text-xl text-md text-black leading-relaxed text-center">
+        <p className="mb-8 px-20 sm:text-xl text-md text-black leading-relaxed text-center">
           Truck Club at Virginia Tech was founded as a Registered Student
           Organization at Virginia Tech on October 13, 2020. We have grown from
           just 5 members to well over 50 members in one year! Our goal is to
