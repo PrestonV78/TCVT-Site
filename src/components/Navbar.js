@@ -32,8 +32,7 @@ export default function Navbar() {
 
         {/* <!-- Menu --> */}
         <nav
-          class="nav"
-          className="flex items-center text-center justify-between flex-wrap md:flex-row py-3"
+          class="nav flex items-center text-center justify-between flex-wrap md:flex-row py-3"
         >
           <ul class="menu">
             <li className="nav-item">
