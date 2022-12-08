@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { a } from "react-router-dom";
 
 const linkStyle = {
   margin: "1rem",
@@ -23,105 +23,109 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
-      {/* <!-- Hamburger icon --> */}
-      <input class="side-menu" type="checkbox" id="side-menu" />
-      <label class="hamb" for="side-menu">
-        <span class="hamb-line"></span>
-      </label>
-
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between">
-        <nav class="nav" className="flex items-center text-center justify-between flex-wrap md:flex-row py-3">
-        <ul class="menu">
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/"
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/about"
-            >
-              About/History
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/officers"
-            >
-              Officers
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/events"
-            >
-              Calendar/Events
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/services"
-            >
-              Services
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/autofest"
-            >
-              AutoFest
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/sponsors"
-            >
-              Sponsors
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/community"
-            >
-              Community Action
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/donate"
-            >
-              Donate
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className=" text-white text-sm text-center"
-              style={linkStyle}
-              to="/more"
-            >
-              More
-            </NavLink>
-          </li>
+        {/* <!-- Hamburger icon --> */}
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu">
+          <span class="hamb-line"></span>
+        </label>
+
+        {/* <!-- Menu --> */}
+        <nav
+          class="nav"
+          className="flex items-center text-center justify-between flex-wrap md:flex-row py-3"
+        >
+          <ul class="menu">
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/"
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/about"
+              >
+                About/History
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/officers"
+              >
+                Officers
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/events"
+              >
+                Calendar/Events
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/services"
+              >
+                Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/autofest"
+              >
+                AutoFest
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/sponsors"
+              >
+                Sponsors
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/community"
+              >
+                Community Action
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/donate"
+              >
+                Donate
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/more"
+              >
+                More
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
