@@ -6,35 +6,35 @@ export default function End() {
       <div class="container h-10 flex flex-wrap place-content-center justify-center justify-items-center tp-10">
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
-            class=""
+            class="mx-3"
             alt="fb"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Facebook.webp"
           />
         </a>
         <a href="https://www.linkedin.com/groups/9170257/">
           <img
-            class=""
+            class="mx-3"
             alt="ln"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/LinkedIn.webp"
           />
         </a>
         <a href="https://www.instagram.com/truckclubatvt/">
           <img
-            class=""
+            class="mx-3"
             alt="ig"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Instagram.webp"
           />
         </a>
         <a href="https://www.youtube.com/channel/UCvT9FXcNgF0oYMBc0bdStZw?view_as=subscriber">
           <img
-            class=""
+            class="mx-3"
             alt="yt"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/YouTube.webp"
           />
         </a>
         <a href="https://linktr.ee/truckclubatvt">
           <img
-            class=""
+            class="mx-3"
             alt="link"
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
           />
