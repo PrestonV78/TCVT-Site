@@ -23,7 +23,7 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
-      <div className="container mb-4 bg-black mx-auto flex flex-wrap flex-col md:flex-row justify-between">
+      <div className="container pb-4 bg-black mx-auto flex flex-wrap flex-col md:flex-row justify-between">
         {/* <!-- Hamburger icon --> */}
         <input class="side-menu" type="checkbox" id="side-menu" />
         <label class="hamb" for="side-menu">
