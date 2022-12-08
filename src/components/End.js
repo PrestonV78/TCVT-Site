@@ -3,7 +3,8 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
-      <div class="container h-10 flex flex-wrap place-content-center justify-center justify-items-center tp-3">
+      <div class="container h-10 flex flex-wrap place-content-center justify-center justify-items-center tp-3 mb-4
+      ">
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
             class="mx-3"
@@ -39,7 +40,6 @@ export default function End() {
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
           />
         </a>
-        <div className="container w=4/9 tp-10"></div>
       </div>
       <div className="container mx-auto w-full mb-4 text-center items-center">
         <p className="text-sm text-black">
