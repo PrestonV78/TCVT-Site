@@ -1,5 +1,5 @@
 import React from "react";
-import { a } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const linkStyle = {
   margin: "1rem",
@@ -37,94 +37,94 @@ export default function Navbar() {
         >
           <ul class="menu">
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/"
+                to="/"
               >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/about"
+                to="/about"
               >
                 About/History
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/officers"
+                to="/officers"
               >
                 Officers
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/events"
+                to="/events"
               >
                 Calendar/Events
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/services"
+                to="/services"
               >
                 Services
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/autofest"
+                to="/autofest"
               >
                 AutoFest
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/sponsors"
+                to="/sponsors"
               >
                 Sponsors
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/community"
+                to="/community"
               >
                 Community Action
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/donate"
+                to="/donate"
               >
                 Donate
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                href="/more"
+                to="/more"
               >
                 More
-              </a>
+              </NavLink>
             </li>
           </ul>
         </nav>
