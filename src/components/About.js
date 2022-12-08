@@ -65,7 +65,7 @@ export default function About() {
         </p>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <img
-          class="mx-auto w-3/5 h-auto "
+          class="mx-auto w-4/5 h-auto "
           alt="banner"
           src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/chl.webp"
         />
