@@ -3,6 +3,7 @@ import React from "react";
 export default function End() {
   return (
     <section id="end" className="relative">
+      <div className="container h-10 mx-auto flex py-5 bg-white"></div>
       <div class="container h-10 flex flex-wrap place-content-center justify-center justify-items-center tp-3 mb-4
       ">
         <a href="https://www.facebook.com/truckclubatvt/">
@@ -46,7 +47,6 @@ export default function End() {
           ©2022 by Truck Club at Virginia Tech
         </p>
       </div>
-      <div className="container h-10 mx-auto flex py-5 bg-white"></div>
     </section>
   );
 }
