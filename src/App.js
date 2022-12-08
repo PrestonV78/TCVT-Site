@@ -16,11 +16,11 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
+    <main className="bg-white text-gray-400 body-font">
       <Navbar />
       <Home />
       <End />
-    </>
+    </main>
   );
 }
 
