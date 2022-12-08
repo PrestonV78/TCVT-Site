@@ -107,3 +107,11 @@ li {
     display: none;
   }
 }
+
+.header{
+  background-color: var(--black);
+  box-shadow: 1px 1px 5px 0px var(--grey);
+  position: sticky;
+  top: 100px;
+  width: 100%;
+}
