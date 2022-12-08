@@ -14,7 +14,7 @@ import Home from "./pages/Home";
 // import Donate from "./pages/Donate";
 // import More from "./pages/More";
 
-function App() {
+export default function App() {
   return (
     <main className="bg-white text-gray-400 body-font">
       <Navbar />
@@ -23,5 +23,3 @@ function App() {
     </main>
   );
 }
-
-export default App;

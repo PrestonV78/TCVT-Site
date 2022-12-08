@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -20,36 +19,36 @@ export default function Navbar() {
       </div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
-          <Link to="/home" className="mr-5 hover:text-white">
+          <a href="#home" className="mr-5 hover:text-white">
             Home
-          </Link>
-          <Link to="/about" className="mr-5 hover:text-white">
+          </a>
+          <a href="#about" className="mr-5 hover:text-white">
             About/History
-          </Link>
-          <Link to="/officers" className="mr-5 hover:text-white">
+          </a>
+          <a href="#officers" className="mr-5 hover:text-white">
             Officers
-          </Link>
-          <Link to="/events" className="mr-5 hover:text-white">
+          </a>
+          <a href="#events" className="mr-5 hover:text-white">
             Calendar/Events
-          </Link>
-          <Link to="/services" className="mr-5 hover:text-white">
+          </a>
+          <a href="#services" className="mr-5 hover:text-white">
             Services
-          </Link>
-          <Link to="/autofest" className="mr-5 hover:text-white">
+          </a>
+          <a href="#autofest" className="mr-5 hover:text-white">
             AutoFest
-          </Link>
-          <Link to="/sponsors" className="mr-5 hover:text-white">
+          </a>
+          <a href="#sponsors" className="mr-5 hover:text-white">
             Sponsors
-          </Link>
-          <Link to="/community" className="mr-5 hover:text-white">
+          </a>
+          <a href="#community" className="mr-5 hover:text-white">
             Community Action
-          </Link>
-          <Link to="/donate" className="mr-5 hover:text-white">
+          </a>
+          <a href="#donate" className="mr-5 hover:text-white">
             Donate
-          </Link>
-          <Link to="/more" className="mr-5 hover:text-white">
+          </a>
+          <a href="#more" className="mr-5 hover:text-white">
             More
-          </Link>
+          </a>
         </nav>
         <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center">
         </div>
