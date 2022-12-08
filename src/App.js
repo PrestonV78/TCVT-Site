@@ -17,22 +17,11 @@ import More from "./pages/More";
 
 function App() {
   return (
-    <Router>
-      {/* <Navbar /> */}
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/officers" element={<Officers />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/autofest" element={<AutoFest />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/more" element={<More />} />
-      </Routes>
-      {/* <End /> */}
-    </Router>
+    <>
+      <Navbar />
+      <Home />
+      <End />
+    </>
   );
 }
 
