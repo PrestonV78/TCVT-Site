@@ -5,7 +5,7 @@ export default function About() {
     <section id="About" className="relative">
       <div className="container h-10 mx-auto flex px-10 py-15 bg-white items-center"></div>
       <div className="container mx-auto flex flex-col items-center">
-        <h1 className="title-font py-5 sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
+        <h1 className="title-font sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
           ABOUT US
         </h1>
         <p className="mb-8 px-20 sm:text-xl text-md text-black leading-relaxed text-center">
