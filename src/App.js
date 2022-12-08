@@ -15,73 +15,24 @@ import Community from "./pages/Community";
 import Donate from "./pages/Donate";
 import More from "./pages/More";
 
-const navigationTabs = [
-  {
-    name: Home,
-    path: "/",
-  },
-  {
-    name: About,
-    path: "/about",
-  },
-  {
-    name: Officers,
-    path: "/officers",
-  },
-  {
-    name: Events,
-    path: "/events",
-  },
-  {
-    name: Services,
-    path: "/services",
-  },
-  {
-    name: AutoFest,
-    path: "/autofest",
-  },
-  {
-    name: Sponsors,
-    path: "/sponsors",
-  },
-  {
-    name: Community,
-    path: "/community",
-  },
-  {
-    name: Donate,
-    path: "/donate",
-  },
-  {
-    name: More,
-    path: "/more",
-  },
-];
 
 export default function App() {
   return (
-    <div className="bg-darkBlue text-white font-outfit py-6">
-      <div className="flex flex-col lg:flex-row max-w-7xl xl:max-w-[150rem] mx-auto min-h-screen">
-        <Navbar />
-        <main className="bg-white text-gray-400 body-font">
-          <Routes>
-            {navigationTabs.map((tab, idx) => {
-              return (
-                <Route
-                  key={idx}
-                  path={tab.path}
-                  element={
-                    <tab.name
-                    // searchTerm={searchTerm} setSearchTerm={setSearchTerm} handleSearch={handleSearch}
-                    />
-                  }
-                />
-              );
-            })}
-          </Routes>
-        </main>
-      </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route  path="/about" element={<About />} />
+        <Route  path="/officers" element={<Officers />} />
+        <Route  path="/events" element={<Events />} />
+        <Route  path="/services" element={<Services />} />
+        <Route  path="/autofest" element={<AutoFest />} />
+        <Route  path="/sponsors" element={<Sponsors />} />
+        <Route  path="/community" element={<Community />} />
+        <Route  path="/donate" element={<Donate />} />
+        <Route  path="/more" element={<More />} />
+      </Routes>
       <End />
-    </div>
+    </Router>
   );
 }
