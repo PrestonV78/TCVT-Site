@@ -24,7 +24,7 @@ export default function Navbar() {
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
-        <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-wrap justify-between">
+        <nav className="md:mr-auto md:ml-4 md:py-1 px-15 md:pl-4 flex flex-row">
           <li className="nav-item">
             <NavLink className="mr-5 text-white" style={linkStyle}  to="/">
               Home
