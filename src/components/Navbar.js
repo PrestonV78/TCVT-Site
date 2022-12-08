@@ -26,18 +26,18 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row justify-between">
         <nav className="flex items-center justify-between flex-wrap p-6">
           <li className="nav-item">
-            <NavLink className="mr-5 text-white" style={linkStyle} to="/">
+            <NavLink className="mr-5 text-white text-sm" style={linkStyle} to="/">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="mr-5 text-white" style={linkStyle} to="/about">
+            <NavLink className="mr-5 text-white text-sm" style={linkStyle} to="/about">
               About/History
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              className="mr-5 text-white"
+              className="mr-5 text-white text-sm"
               style={linkStyle}
               to="/officers"
             >
@@ -45,13 +45,13 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="mr-5 text-white" style={linkStyle} to="/events">
+            <NavLink className="mr-5 text-white text-sm" style={linkStyle} to="/events">
               Calendar/Events
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              className="mr-5 text-white"
+              className="mr-5 text-white text-sm"
               style={linkStyle}
               to="/services"
             >
@@ -60,7 +60,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className="mr-5 text-white"
+              className="mr-5 text-white text-sm"
               style={linkStyle}
               to="/autofest"
             >
@@ -69,7 +69,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className="mr-5 text-white"
+              className="mr-5 text-white text-sm"
               style={linkStyle}
               to="/sponsors"
             >
@@ -78,7 +78,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              className="mr-5 text-white"
+              className="mr-5 text-white text-sm"
               style={linkStyle}
               to="/community"
             >
@@ -86,12 +86,12 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="mr-5 text-white" style={linkStyle} to="/donate">
+            <NavLink className="mr-5 text-white text-sm" style={linkStyle} to="/donate">
               Donate
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="mr-5 text-white" style={linkStyle} to="/more">
+            <NavLink className="mr-5 text-white text-sm" style={linkStyle} to="/more">
               More
             </NavLink>
           </li>
