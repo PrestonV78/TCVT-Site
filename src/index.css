@@ -95,10 +95,11 @@ ul{
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
   max-height: 100%;
+  max-width: 100%;
   background: black;
 }
 .side-menu:checked ~ .hamb .hamb-line {
-  background: black;
+  background: white;
 }
 .side-menu:checked ~ .hamb .hamb-line::before {
   transform: rotate(-45deg);
