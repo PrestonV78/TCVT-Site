@@ -4,6 +4,7 @@ export default function End() {
   return (
     <section id="end" className="relative">
       <div className="container mx-auto flex flex-wrap justify-items-center tp-10">
+        <div className="container w=4/9  tp-10"></div>
         <a href="https://www.facebook.com/truckclubatvt/">
           <img
             class=""
@@ -39,6 +40,7 @@ export default function End() {
             src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Link.webp"
           />
         </a>
+        <div className="container w=4/9  tp-10"></div>
       </div>
       <div className="container mx-auto w-full mb-5 text-center items-center px-5 py-10">
         <p className="text-sm text-black">
