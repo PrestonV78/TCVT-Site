@@ -4,7 +4,7 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="text-gray-400 bg-pink-900 body-font">
-      <div className="container h-10 mx-auto flex px-10 py-5 bg-white items-center"></div>
+      <div className="container h-10 mx-auto flex px-10 py-5 bg-pink-900 items-center"></div>
       <img
         class="mx-auto max-w-full h-auto"
         alt="banner"
@@ -27,7 +27,7 @@ export default function Officers() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-auto object-cover object-center"
                   src={officer.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
