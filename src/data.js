@@ -1,43 +1,67 @@
-export const projects = [
+export const officers = [
   {
-    title: "Personal Server",
-    subtitle: "*GitLab is available upon request for this project*",
+    title: "SEBASTIAN BUENAÑO",
+    subtitle: "President",
     description:
-      "Personal Server allows for the running of a server by the user that handles many different situations. The server is implemented to handle multiple clients, mutli-threading, private access through cookie verification, HTTP/1.0 and HTTP/1.1, range requests, static file serving, HTML5 fallback, video streaming, and refresh authentication.",
-    image: "./Server.svg",
-    link: "https://pverling.com#contact",
+      "Civil and Environmental Engineering, May 2024",
+    image: "./Sebastian2.webp",
+    link: "sebastianb23@vt.edu",
   },
   {
-    title: "Discord Bots",
-    subtitle: "BubbaBot and TCVT Bot",
+    title: "RYAN VOGT",
+    subtitle: "Vice President",
     description:
-      "Discord Bots created and maintained by me on Replit servers. BubbaBot is a personal bot made for my significant other and is written in JavaScript utilizing the discord.js api. TCVT Bot is a discord bot for Truck Club at Virginia Tech written in python that utilizes discord.py and json files. TCVT Bot has message tracking, a casino function, and simple reaction roles.",
-    image: "./Discord.svg",
-    link: "https://replit.com/@PrestonV2",
+      "Construction Engineering And Management, May 2024",
+    image: "./Ryan.webp",
+    link: "rdvogt9@vt.edu",
   },
   {
-    title: "Cush",
-    subtitle: "*GitLab is available upon request for this project*",
+    title: "BEN THOMPSON",
+    subtitle: "Secretary",
     description:
-      "Cush is a personal customized shell that was created by me and my partner. With this project we were able to create a shell that, has a custom prompt, supports many built-in commands, keyboard signaling, I/O redirection, exclusive terminal access, piping, directory changing, and history commands. ",
-    image: "./Terminal.svg",
-    link: "https://pverling.com#contact",
+      "Mechanical Engineering, May 2025",
+    image: "./Ben.webp",
+    link: "thompsonb16@vt.edu",
   },
   {
-    title: "AES Encryption System",
-    subtitle: "*GitLab is available upon request for this project*",
+    title: "ZACH SPEIZER",
+    subtitle: "Treasurer",
     description:
-      "AES Encryption System is a local system that can encrypt and decrypt many AES variants. The system allows for the use of ECB and CBC modes. It also allows for the use of the simple or expanded key. The System includes a menu to help with the running and selection of these options that can be found by running the executable with no parameters.",
-    image: "./AES.svg",
-    link: "https://pverling.com#contact",
+    "Construction Engineering Management, December 2023",    
+    image: "./Zach.webp",
+    link: "zachspeizer@vt.edu",
   },
   {
-    title: "ThermoFlyAI",
-    subtitle: "GUI Team Lead",
+    title: "KYLEE MOOSE",
+    subtitle: "Chief Social Media Manager",
     description:
-      "A React Native Mobile App built using EXpo for the ThermoFlyAI ECE MDE Project. See Experience or Contact Me for more information.",
-    image: "./ThermoFlyAI.svg",
-    link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
+      "HNEF, May 2023",
+    image: "./Kylee.webp",
+    link: "kyleemoose@vt.edu",
+  },
+  {
+    title: "PRESTON VERLING",
+    subtitle: "Chief Marketing Manager",
+    description:
+      "Computer Science, May 2023 ",
+    image: "./Preston.webp",
+    link: "prestonv@vt.edu",
+  },
+  {
+    title: "MICHEAL ERB",
+    subtitle: "Sponsors Relations Liaison",
+    description:
+      "Nanomedicine, May 2024",
+    image: "./Erb.webp",
+    link: "michealerb27@vt.edu",
+  },
+  {
+    title: "WAYNE THOMPSON",
+    subtitle: "Alumni Relations Liaison",
+    description:
+      "Computational Modeling and Data Analytics, May 2023",
+    image: "./Wayne.webp",
+    link: "jeeper98@vt.edu",
   },
 ];
 
