@@ -46,6 +46,7 @@ export default function Officers() {
           ))}
         </div>
       </div>
+      <div className="container h-10 mx-auto flex px-10 py-5 bg-white"></div>
     </section>
   );
 }
