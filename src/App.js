@@ -18,7 +18,7 @@ import More from "./pages/More";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -31,7 +31,7 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/more" element={<More />} />
       </Routes>
-      <End />
+      {/* <End /> */}
     </Router>
   );
 }
