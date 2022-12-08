@@ -46,6 +46,7 @@ export default function End() {
           ©2022 by Truck Club at Virginia Tech
         </p>
       </div>
+      <div className="container h-10 mx-auto flex py-5 bg-white"></div>
     </section>
   );
 }
