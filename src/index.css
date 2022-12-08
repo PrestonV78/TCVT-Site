@@ -58,7 +58,7 @@ ul{
 /* Menu Icon */
 .hamb{
   cursor: pointer;
-  float: right;
+  float: none;
   padding: 40px 20px;
 }/* Style label tag */
 
