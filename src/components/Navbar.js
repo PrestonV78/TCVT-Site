@@ -1,60 +1,132 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: "blue",
+};
 
 export default function Navbar() {
   return (
-    <header className="bg-black md: top-0 z-10">
-      <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center w-80">
+    <header className="bg-black md: top-5 z-10">
+      <div className="container mx-auto flex w-2/5 py-2 flex-row items-center">
         <img
-          className="object-cover object-center rounded"
+          className="object-center object-cover rounded"
           alt="badge"
           src="../Logo.svg"
         />
       </div>
       <div className="container px-5 py-2 mx-auto text-center lg:px-40">
-        <h1 className="title-font sm:text-5xl text-3xl mb-4 text-white font-semibold">
-            TRUCK CLUB AT VIRGINIA TECH
+        <h1 className="title-font sm:text-4xl text-2xl text-white font-semibold">
+          TRUCK CLUB AT VIRGINIA TECH
         </h1>
       </div>
-      <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center">
-      </div>
-      <div className="container mx-auto flex flex-wrap p-3 flex-col lg:flex-row md:flex-row justify-between">
-        <nav className="md:mr-auto md:ml-4 md:py-1 px-20 md:pl-4 flex flex-wrap justify-between">
-          <a className="mr-15 text-black">
-            ......................................
-          </a>
-          <a href="#about" className="mr-5 hover:text-white">
-            Home
-          </a>
-          <a href="#projects" className="mr-5 hover:text-white">
-            About/History
-          </a>
-          <a href="#experience" className="mr-5 hover:text-white">
-            Officers
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Calendar/Events
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Services
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Auto Fest
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Sponsors
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Community Action
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Donate
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            More
-          </a>
+      <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
+      <div className="container pb-4 bg-black mx-auto flex flex-wrap flex-col md:flex-row justify-between">
+        {/* <!-- Hamburger icon --> */}
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu">
+          <span class="hamb-line"></span>
+        </label>
+
+        {/* <!-- Menu --> */}
+        <nav
+          class="nav"
+        >
+          <ul class="menu">
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/about"
+              >
+                About/History
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/officers"
+              >
+                Officers
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/events"
+              >
+                Calendar/Events
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/services"
+              >
+                Services
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/autofest"
+              >
+                AutoFest
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/sponsors"
+              >
+                Sponsors
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/community"
+              >
+                Community Action
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/donate"
+              >
+                Donate
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className=" text-white text-sm text-center"
+                style={linkStyle}
+                to="/more"
+              >
+                More
+              </NavLink>
+            </li>
+          </ul>
         </nav>
-        <div className="container h-px mx-auto flex px-10 py-3 bg-black items-center">
-        </div>
       </div>
     </header>
   );
