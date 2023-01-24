@@ -35,11 +35,11 @@ export default function Navbar() {
           class="nav"
         >
           <ul class="menu">
-            <li className="nav-item">
+            <li>
               <NavLink
                 className=" text-black text-sm text-center"
               >
-                .........
+                ................
               </NavLink>
             </li>
             <li className="nav-item">
