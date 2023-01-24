@@ -41,6 +41,8 @@ ul{
   background-color: var(--black);
   overflow: hidden;
   align-items: center;
+  align-content: center;
+  flex-direction: row;
 }
 .menu a{
   display: block;
