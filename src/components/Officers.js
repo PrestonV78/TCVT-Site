@@ -18,13 +18,13 @@ export default function Officers() {
           The Faces of Our Organization
         </p>
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
-        <div className="content-center -m-4">
+        <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-            <a href={officer.link} key={officer.image} className="w-1/3 p-4">
+            <a href={officer.link} key={officer.image} className="md:w-1/3 w-full p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
                   src={officer.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
