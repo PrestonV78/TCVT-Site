@@ -37,6 +37,14 @@ export default function Navbar() {
           <ul class="menu">
             <li className="nav-item">
               <NavLink
+                className=" text-black text-sm text-center"
+                style={linkStyle}
+              >
+                .........
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
                 to="/"
