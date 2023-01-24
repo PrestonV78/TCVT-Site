@@ -44,17 +44,18 @@ ul{
 }
 .menu a{
   display: block;
+  flex-direction: row;
   padding: 0px;
   color: var(--white);
   align-items: center;
   align-content: center;
-  flex-direction: row;
 }
 .menu a:hover{
   background-color: var(--gray);
 }
 .nav{
   max-height: 0;
+  flex-direction: row;
   transition: max-height .5s ease-out;
 }
 
@@ -123,6 +124,7 @@ ul{
       float: right;
       width: fit-content;
       background-color: transparent;
+      flex-direction: row;
   }
   .menu li{
       float: left;
