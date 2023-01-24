@@ -39,7 +39,7 @@ export default function Navbar() {
               <NavLink
                 className=" text-black text-sm text-center"
               >
-                .                      .
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
               </NavLink>
             </li>
             <li className="nav-item">
