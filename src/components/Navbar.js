@@ -38,7 +38,6 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 className=" text-black text-sm text-center"
-                style={linkStyle}
               >
                 .........
               </NavLink>
