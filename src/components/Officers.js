@@ -13,12 +13,12 @@ export default function Officers() {
           The Faces of Our Organization
         </p>
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
-        <div className="container  -m-4 flex flex-wrap ">
+        <div className="container  -m-4 flex sm:flex-row flex-wrap ">
           {officers.map((officer) => (
-            <div className="container w-1/3 h-eqw my-4 flex relative">
+            <div className="container sm:w-full w-1/3 h-eqw my-4 flex relative">
               <img
                 alt="gallery"
-                className="absolute inset-0 h-full sm:w-fit w-full sm:object-scale-down object-contain object-center"
+                className="absolute inset-0 h-full w-full object-contain object-center"
                 src={officer.image}
               />
               <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
