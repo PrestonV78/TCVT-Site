@@ -22,7 +22,7 @@ export default function Officers() {
                   className="absolute inset-0 h-full w-full object-contain object-center"
                   src={officer.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
                     {officer.subtitle}
                   </h2>
