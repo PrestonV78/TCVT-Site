@@ -4,9 +4,9 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="relative bg-pink-900">
-      <div className="container max-w-full h-70">
+      <div className="container max-w-full h-50">
         <img
-          class="mx-auto max-w-full h-auto object-fill"
+          class="\object-fill"
           alt="banner"
           src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Team.webp"
         />
