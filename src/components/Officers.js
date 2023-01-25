@@ -19,7 +19,7 @@ export default function Officers() {
               <div className="container w-fit h-fit flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 h-full w-full object-scale object-center"
+                  className="absolute inset-0 h-full w-full object-cover object-center"
                   src={officer.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
