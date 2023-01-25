@@ -3,8 +3,8 @@ import React from "react";
 export default function Services() {
   return (
     <section id="Services" className="relative">
-      <div className="container mx-auto flex flex-col pt-15 mt-15 items-center">
-        <h1 className="title-font sm:text-5xl text-2xl mb-4 text-pink-900 font-bold text-center">
+      <div className="container mx-auto flex flex-col items-center">
+        <h1 className="title-font sm:text-5xl text-2xl mb-4 mt-15 text-pink-900 font-bold text-center">
           TCVT SERVICES
         </h1>
         <h1 className="title-font px-10 sm:text-2xl text-lg mb-4 text-black font-semibold text-center ">
