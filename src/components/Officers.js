@@ -13,7 +13,7 @@ export default function Officers() {
           The Faces of Our Organization
         </p>
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
-        <div className="container  -m-4 flex sm:flex-row md:flex-wrap lg:flex-wrap">
+        <div className="container  -m-4 flex sm:flex-col md:flex-wrap lg:flex-wrap">
           {officers.map((officer) => (
             <div className="container sm:w-full md:w-1/3 lg:w-1/3 h-eqw my-4 flex relative">
               <img
