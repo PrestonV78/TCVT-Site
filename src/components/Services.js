@@ -10,7 +10,7 @@ export default function Services() {
       <div className="container h-30 mx-auto flex px-10 py-5 "></div>
       <div className="container w-full flex flex-col bg-pink-900 ">
         <div className="container mx-auto w-2/3 flex flex-col py-5 ">
-          <h1 className="title-font px-35 mx-35 sm:text-3xl text-xl mb-8 text-white font-semibold text-center ">
+          <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
             Our mission at Truck Club at Virginia Tech is to use our trucks as a vessel for positive change,
             which is why we want to help you in any way we can!
           </h1>
@@ -41,6 +41,35 @@ export default function Services() {
           </p>
         </div>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <div className="container mx-auto flex-row flex px-10 py-5 ">
+          <div className="container w-1/2 flex px-10 py-5 ">
+            <img
+              class="mx-auto max-w-full h-auto"
+              alt="moving"
+              src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/moving.webp"
+            />
+          </div>
+          <div className="container w-1/2 flex-col flex px-10 py-5 ">
+            <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
+              GENERAL MOVING ASSISTANCE
+            </h1>
+          </div>
+        </div>
+        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <div className="container mx-auto flex-row flex px-10 py-5 ">
+          <div className="container w-1/2 flex px-10 py-5 ">
+            <img
+              class="mx-auto max-w-full h-auto"
+              alt="pallet"
+              src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/pallet.webp"
+            />
+          </div>
+          <div className="container w-1/2 flex-col flex px-10 py-5 ">
+            <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
+              PALLET PICKUP
+            </h1>
+          </div>
+        </div>
       </div>
     </section>
   );
