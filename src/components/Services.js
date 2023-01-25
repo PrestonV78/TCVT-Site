@@ -70,17 +70,16 @@ export default function Services() {
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/pallet.webp"
             />
           </div>
-          <div className="container w-1/2 flex-col flex px-10">
-            <div className="container mx-auto my-auto flex-col flex">
-              <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
-                PALLET PICKUP
-              </h1>
-              <a
-                href="https://forms.gle/5xhJgw9rapjsEs5D8"
-                className=" mx-auto w-1/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
-                <strong>Begin Survey</strong>
-              </a>
-            </div>
+          <div className="container w-1/2 flex-col flex content-center items-center px-10">
+            <div className="container h-2 mx-auto flex px-10 py-5 "></div>
+            <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
+              PALLET PICKUP
+            </h1>
+            <a
+              href="https://forms.gle/5xhJgw9rapjsEs5D8"
+              className=" mx-auto w-1/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              <strong>Begin Survey</strong>
+            </a>
           </div>
         </div>
       </div>
