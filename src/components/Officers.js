@@ -4,12 +4,7 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="relative bg-pink-900">
-      <img
-        class="mx-auto max-w-full h-auto"
-        alt="banner"
-        src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Team.webp"
-      />
-      <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
+      <div className="container h-30 mx-auto flex bg-pink-900 items-center"></div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <h1 className="title-font sm:text-6xl text-3xl mb-4 text-white font-bold text-center">
           MEET THE TEAM
