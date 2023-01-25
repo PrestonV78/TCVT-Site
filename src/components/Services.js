@@ -5,11 +5,11 @@ export default function Services() {
     <section id="Services" className="relative">
       <div className="container mx-auto flex flex-col items-center">
         <div className="container h-30 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font sm:text-6xl text-3xl mb-4 text-pink-900 font-bold text-center">
+        <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
           TCVT SERVICES
         </h1>
         <div className="container mx-auto w-2/3 flex flex-col py-5 ">
-          <h1 className="title-font px-35 mx-35 sm:text-3xl text-xl mb-4 text-black font-semibold text-center ">
+          <h1 className="title-font px-35 mx-35 sm:text-3xl text-xl mb-8 text-black font-semibold text-center ">
             Our mission at Truck Club at Virginia Tech is to use our trucks as a vessel for positive change,
             which is why we want to help you in any way we can!
           </h1>
