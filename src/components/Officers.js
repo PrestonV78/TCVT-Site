@@ -13,28 +13,26 @@ export default function Officers() {
           The Faces of Our Organization
         </p>
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
-        <div className="flex flex-wrap container w-1/3 h-eqw p-4 -m-4">
+        <div className="container w-1/3 h-eqw p-4 -m-4 flex flex-wrap ">
           {officers.map((officer) => (
-            <a href={officer.link} key={officer.image} className="flex">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 h-full w-full object-contain object-center"
-                  src={officer.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
-                    {officer.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {officer.title}
-                  </h1>
-                  <p className="leading-relaxed text-gray-400">
-                    {officer.description}
-                  </p>
-                </div>
+            <div className="flex relative">
+              <img
+                alt="gallery"
+                className="absolute inset-0 h-full w-full object-contain object-center"
+                src={officer.image}
+              />
+              <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
+                <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
+                  {officer.subtitle}
+                </h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">
+                  {officer.title}
+                </h1>
+                <p className="leading-relaxed text-gray-400">
+                  {officer.description}
+                </p>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
