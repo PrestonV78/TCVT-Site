@@ -15,7 +15,6 @@ export default function Officers() {
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
         <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-            <a href={officer.link} key={officer.image} className="w-1/3 h-eqw p-4">
               <div className="w-1/3 h-eqwflex relative">
                 <img
                   alt="gallery"
@@ -34,7 +33,6 @@ export default function Officers() {
                   </p>
                 </div>
               </div>
-            </a>
           ))}
         </div>
       </div>
