@@ -56,8 +56,8 @@ export default function Services() {
             </h1>
             <a
               href="https://forms.gle/5xhJgw9rapjsEs5D8"
-              className=" mx-auto w-1/2 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
-              Begin Survey
+              className=" mx-auto w-1/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              <strong>Begin Survey</strong>
             </a>
           </div>
         </div>
