@@ -8,7 +8,7 @@ export default function Services() {
         <h1 className="title-font sm:text-6xl text-3xl mb-4 text-pink-900 font-bold text-center">
           TCVT SERVICES
         </h1>
-        <div className="container mx-auto flex flex-col px-10 py-5 ">
+        <div className="container mx-auto px-35 flex flex-col py-5 ">
           <h1 className="title-font px-35 mx-35 sm:text-3xl text-xl mb-4 text-black font-semibold text-center ">
             Our mission at Truck Club at Virginia Tech is to use our trucks as a vessel for positive change,
             which is why we want to help you in any way we can!
