@@ -12,7 +12,7 @@ export default function Services() {
           Our mission at Truck Club at Virginia Tech is to use our trucks as a vessel for positive change,
           which is why we want to help you in any way we can!
         </h1>
-        <div className="container h-5 x-full flex py-15 bg-pink-900 items-center"></div>
+        <div className="container h-5 w-full flex py-15 bg-pink-900 items-center"></div>
         <p className="px-35 text-md text-black leading-relaxed text-center">
           Currently, TCVT is providing 2 services to assist the community around us.
         </p>
