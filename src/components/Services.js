@@ -50,10 +50,15 @@ export default function Services() {
             />
           </div>
           <div className="container w-1/2 flex-col flex px-10 py-5 ">
-            <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+            <div className="container h-2 mx-auto flex px-10 py-5 "></div>
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               GENERAL MOVING ASSISTANCE
             </h1>
+            <a
+              href="https://forms.gle/5xhJgw9rapjsEs5D8"
+              className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+              Begin Survey
+            </a>
           </div>
         </div>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
@@ -70,6 +75,11 @@ export default function Services() {
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               PALLET PICKUP
             </h1>
+            <a
+              href="https://forms.gle/5xhJgw9rapjsEs5D8"
+              className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+              Begin Survey
+            </a>
           </div>
         </div>
       </div>
