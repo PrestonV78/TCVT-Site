@@ -49,7 +49,7 @@ export default function Services() {
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/moving.webp"
             />
           </div>
-          <div className="container w-1/2 flex-col flex px-10 py-5 ">
+          <div className="container w-1/2 flex-col flex items-center px-10">
             <div className="container h-2 mx-auto flex px-10 py-5 "></div>
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               GENERAL MOVING ASSISTANCE
@@ -70,8 +70,7 @@ export default function Services() {
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/pallet.webp"
             />
           </div>
-          <div className="container w-1/2 flex-col flex px-10">
-            <div className="container h-5 mx-auto flex px-10 py-5 "></div>
+          <div className="container w-1/2  flex-col flex items-center px-10">
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               PALLET PICKUP
             </h1>
