@@ -4,7 +4,7 @@ import { officers } from "../data";
 export default function Officers() {
   return (
     <section id="officers" className="relative bg-pink-900">
-      <div className="container h-30 mx-auto flex px-10 py-5 bg-pink-900 items-center"></div>
+      <div className="container h-20 mx-auto flex px-10 py-5 bg-pink-900 items-center"></div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <h1 className="title-font sm:text-6xl text-3xl mb-4 text-white font-bold text-center">
           MEET THE TEAM
@@ -15,10 +15,11 @@ export default function Officers() {
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
         <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-              <div className="container w-1/3 min-h-fit flex">
+            <a href={officer.link} key={officer.image} className="w-1/3 h-eqw p-4">
+              <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0  w-1/3 object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
                   src={officer.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
@@ -33,6 +34,7 @@ export default function Officers() {
                   </p>
                 </div>
               </div>
+            </a>
           ))}
         </div>
       </div>
