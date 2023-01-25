@@ -15,11 +15,11 @@ export default function Officers() {
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
         <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-            <a href={officer.link} key={officer.image} className=" w-1/3 h-eqw p-4 flex">
-              <div className="flex relative">
+            <a href={officer.link} key={officer.image} className="p-4 flex">
+              <div className="container  w-1/3 h-eqw flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-scale object-center"
+                  className="absolute inset-0 object-scale object-center"
                   src={officer.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
