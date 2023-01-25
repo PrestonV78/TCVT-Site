@@ -13,9 +13,9 @@ export default function Officers() {
           The Faces of Our Organization
         </p>
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
-        <div className="container p-4 -m-4 flex flex-wrap ">
+        <div className="container  -m-4 flex flex-wrap ">
           {officers.map((officer) => (
-            <div className="container w-1/3 h-eqw p-4 m-4 flex relative">
+            <div className="container w-1/3 h-eqw my-4 flex relative">
               <img
                 alt="gallery"
                 className="absolute inset-0 h-full w-full object-contain object-center"
