@@ -70,7 +70,7 @@ export default function Services() {
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/pallet.webp"
             />
           </div>
-          <div className="container w-1/2 content-center items-center px-10">
+          <div className="container w-1/2 flex-col flex content-center items-center px-10">
             <div className="container h-15 mx-auto my-auto flex-col flex px-10">
               <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
                 PALLET PICKUP
