@@ -50,7 +50,7 @@ export default function Services() {
             />
           </div>
           <div className="container w-1/2 flex-col flex px-10 py-5 ">
-            <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
+            <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
               GENERAL MOVING ASSISTANCE
             </h1>
           </div>
@@ -65,7 +65,7 @@ export default function Services() {
             />
           </div>
           <div className="container w-1/2 flex-col flex px-10 py-5 ">
-            <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
+            <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
               PALLET PICKUP
             </h1>
           </div>
