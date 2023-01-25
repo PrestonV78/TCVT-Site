@@ -5,7 +5,7 @@ export default function Officers() {
   return (
     <section id="officers" className="relative  bg-pink-900">
       <img
-        class="mx-auto max-w-full h-auto"
+        class="mx-auto max-w-full h-auto object-fill"
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/Team.webp"
       />

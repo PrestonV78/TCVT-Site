@@ -1,67 +1,73 @@
 export const officers = [
   {
-    title: "SEBASTIAN BUENAÑO",
+    title: "RYAN VOGT",
     subtitle: "President",
     description:
-      "Civil and Environmental Engineering, May 2024",
-    image: "./Seb.jpeg",
-    link: "mailto:sebastianb23@vt.edu",
-  },
+    "Construction Engineering And Management\n May 2024",
+    image: "./Ryan.jpeg",
+    },
   {
-    title: "RYAN VOGT",
+    title: "ZACH SPEIZER",
     subtitle: "Vice President",
     description:
-      "Construction Engineering And Management, May 2024",
-    image: "./Ryan.jpeg",
-    link: "mailto:rdvogt9@vt.edu",
+    "Construction Engineering Management\n December 2023",    
+    image: "./Zach.jpeg",
   },
   {
     title: "BEN THOMPSON",
     subtitle: "Secretary",
     description:
-      "Mechanical Engineering, May 2025",
+      "Mechanical Engineering\n May 2025",
     image: "./Ben.jpeg",
-    link: "mailto:thompsonb16@vt.edu",
   },
   {
-    title: "ZACH SPEIZER",
+    title: "TREVOR PAUL",
     subtitle: "Treasurer",
     description:
-    "Construction Engineering Management, December 2023",    
-    image: "./Zach.jpeg",
-    link: "mailto:zachspeizer@vt.edu",
+    "ACIS and MCA\nMay 2025",    
+    image: "./Trevor.jpeg",
   },
   {
-    title: "KYLEE MOOSE",
+    title: "SKY McHUGH",
     subtitle: "Chief Social Media Manager",
     description:
-      "HNEF, May 2023",
-    image: "./Kylee.jpeg",
-    link: "mailto:kyleemoose@vt.edu",
+      "Clinical Neuroscience, Minor in Biology\nMay 2023",
+    image: "./Sky.jpeg",
   },
   {
     title: "PRESTON VERLING",
     subtitle: "Chief Marketing Manager",
     description:
-      "Computer Science, May 2023 ",
+      "Computer Science\n May 2023 ",
     image: "./Preston.jpeg",
-    link: "mailto:prestonv@vt.edu",
   },
   {
     title: "MICHEAL ERB",
     subtitle: "Sponsors Relations Liaison",
     description:
-      "Nanomedicine, May 2024",
+      "Nanomedicine\n May 2024",
     image: "./Erb.jpeg",
-    link: "mailto:michealerb27@vt.edu",
+  },
+  {
+    title: "LUKE SPAGNOLO",
+    subtitle: "Asst. Sponsors Liaison",
+    description:
+      "Building Construction\nMay 2026",
+    image: "./Spag.jpeg",
+  },
+  {
+    title: "JACOB FORTUNE",
+    subtitle: "Event Coordinator",
+    description:
+      "Criminology\nMay 2024",
+    image: "./Jake.jpeg",
   },
   {
     title: "WAYNE THOMPSON",
     subtitle: "Alumni Relations Liaison",
     description:
-      "Computational Modeling and Data Analytics, May 2023",
+      "Computational Modeling and Data Analytics\n May 2023",
     image: "./Wayne.jpeg",
-    link: "mailto:jeeper98@vt.edu",
   },
 ];
 
