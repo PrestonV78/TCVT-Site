@@ -3,7 +3,7 @@ import { officers } from "../data";
 
 export default function Officers() {
   return (
-    <section id="officers" className="relative  bg-pink-900">
+    <section id="officers" className="relative max-w-full h-70 bg-pink-900">
       <img
         class="mx-auto max-w-full h-auto object-fill"
         alt="banner"

@@ -53,7 +53,7 @@ export const officers = [
     subtitle: "Asst. Sponsors Liaison",
     description:
       "Building Construction\nMay 2026",
-    image: "./Spag.jpeg",
+    image: "./Luke.jpeg",
   },
   {
     title: "JACOB FORTUNE",
