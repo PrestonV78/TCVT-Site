@@ -61,7 +61,7 @@ export default function Services() {
             </a>
           </div>
         </div>
-        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <div className="container h-5 mx-auto flex px-10 py-5 "></div>
         <div className="container mx-auto flex-row flex px-10 py-5 ">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
@@ -77,8 +77,8 @@ export default function Services() {
             </h1>
             <a
               href="https://forms.gle/5xhJgw9rapjsEs5D8"
-              className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
-              Begin Survey
+              className=" mx-auto w-1/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              <strong>Begin Survey</strong>
             </a>
           </div>
         </div>
