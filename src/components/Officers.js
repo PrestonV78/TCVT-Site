@@ -15,7 +15,7 @@ export default function Officers() {
         <div className="container h-10 mx-auto flex bg-pink-900 items-center"></div>
         <div className="flex flex-wrap -m-4">
           {officers.map((officer) => (
-              <div className="container w-1/3 h-eqw flex">
+              <div className="container w-1/3 min-h-fit">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
