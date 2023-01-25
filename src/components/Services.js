@@ -71,7 +71,7 @@ export default function Services() {
             />
           </div>
           <div className="container w-1/2 flex-col flex content-center items-center px-10">
-            <div className="container h-15 mx-auto my-auto flex-col flex">
+            <div className="container mx-auto my-auto flex-col flex">
               <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
                 PALLET PICKUP
               </h1>
