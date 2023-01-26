@@ -28,52 +28,52 @@ export default function AutoFest() {
         </h1>
 
         <div className="container mx-auto flex-row flex px-5 py-5 ">
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
-            <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
+          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-2 border-white">
+            <h1 className="title-font sm:text-xl text-md mb-4 text-white font-semibold text-center ">
               Attendee Regestration
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
               <strong>Coming Soon</strong>
             </a>
           </div>
 
           <div className="container w-2 flex"></div>
 
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
-            <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
+          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-2 border-white">
+            <h1 className="title-font sm:text-xl text-md mb-4 text-white font-semibold text-center ">
               Vendor Regestration
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
               <strong>Coming Soon</strong>
             </a>
           </div>
 
           <div className="container w-2 flex"></div>
 
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
-            <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
+          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-2 border-white">
+            <h1 className="title-font sm:text-xl text-md mb-4 text-white font-semibold text-center ">
               Sponsor Regestration
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
               <strong>Coming Soon</strong>
             </a>
           </div>
 
           <div className="container w-2 flex"></div>
 
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
-            <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
+          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-2 border-white">
+            <h1 className="title-font sm:text-xl text-md mb-4 text-white font-semibold text-center ">
               Shop Merch
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
               <strong>Coming Soon</strong>
             </a>
           </div>
