@@ -28,7 +28,7 @@ export default function AutoFest() {
         </h1>
 
         <div className="container mx-auto flex-row flex px-5 py-5 ">
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
+          <div className="container mx-auto w-1/4 flex-col flex mx-3 px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Attendee Regestration
             </h1>
@@ -38,7 +38,7 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
+          <div className="container mx-auto w-1/4 flex-col flex mx-3 px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Vendor Regestration
             </h1>
@@ -48,7 +48,7 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
+          <div className="container mx-auto w-1/4 flex-col flex mx-3 px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Sponsor Regestration
             </h1>
@@ -58,7 +58,7 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
-          <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
+          <div className="container mx-auto w-1/4 flex-col flex mx-3 px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Shop Merch
             </h1>
@@ -80,9 +80,7 @@ export default function AutoFest() {
         <h1 className="title-font px-10 sm:text-2xl text-lg mb-4 text-black font-semibold text-center ">
         See you in November 2023
         </h1>
-        <div className="container h-40 mx-auto flex px-10 py-5 "></div>
       </div>
-      <div className="container h-10 mx-auto flex px-10 py-5 bg-white"></div>
     </section>
   );
 }
