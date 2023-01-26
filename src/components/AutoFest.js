@@ -20,12 +20,13 @@ export default function AutoFest() {
         alt="banner"
         src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/autofest.webp"
       />
+
       <div className="container py-30 mx-auto flex-col items-center bg-pink-900 max-w-full">
         <div className="container h-20 mx-auto flex py-5 "></div>
         <h1 className="title-font sm:text-3xl text-xl mb-4 text-white font-semibold text-center ">
           Next Show, November 2023
         </h1>
-        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <div className="container h-5 mx-auto flex px-10 py-5 "></div>
 
         <div className="container mx-auto flex-row flex px-10 py-5 ">
           <div className="container mx-auto flex-col flex px-10 py-5 border-4 border-white">
@@ -49,11 +50,10 @@ export default function AutoFest() {
             </h1>
           </div>
         </div>
-        
-        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
       </div>
 
       <div className="container h-10 mx-auto flex-col flex px-10 py-15 bg-white items-center">
+      <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <h1 className="title-font px-10 sm:text-3xl text-xl mb-4 text-pink-900 font-semibold text-center ">
           Thank You For An Awesome Auto Fest 2022
         </h1>
