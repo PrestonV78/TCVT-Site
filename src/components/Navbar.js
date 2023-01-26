@@ -10,7 +10,7 @@ const linkStyle = {
 export default function Navbar() {
   return (
     <header className="bg-black md: top-5 z-10">
-      <div className="container mx-auto flex w-2/5 py-2 flex-row items-center">
+      <div className="container mx-auto flex w-1/3 py-2 flex-row items-center">
         <img
           className="object-center object-cover rounded"
           alt="badge"
