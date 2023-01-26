@@ -1,4 +1,5 @@
 import React from "react";
+import { officers } from "../data";
 
 export default function Sponsors() {
   return (
@@ -113,7 +114,7 @@ export default function Sponsors() {
             </div>
           </div>
         ))}
-        
+
       </div>
     </section>
   );
