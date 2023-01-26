@@ -85,8 +85,7 @@ export default function AutoFest() {
         <h1 className="title-font px-10 sm:text-3xl text-xl mb-4 text-pink-900 font-semibold text-center ">
           Thank You For An Awesome Auto Fest 2022
         </h1>
-        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font px-10 sm:text-2xl text-lg mb-4 text-black font-semibold text-center ">
+        <h1 className="title-font px-10 sm:text-xl text-md mb-4 text-black font-semibold text-center ">
           See you in November 2023
         </h1>
       </div>
