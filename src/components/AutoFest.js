@@ -33,7 +33,7 @@ export default function AutoFest() {
               Attendee Regestration
             </h1>
             <a
-              href=""
+              href="/autofest"
               className=" mx-auto w-1/3 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
               <strong>Coming Soon</strong>
             </a>
@@ -43,7 +43,7 @@ export default function AutoFest() {
               Vendor Regestration
             </h1>
             <a
-              href=""
+              href="/autofest"
               className=" mx-auto w-1/3 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
               <strong>Coming Soon</strong>
             </a>
@@ -53,7 +53,7 @@ export default function AutoFest() {
               Sponsor Regestration
             </h1>
             <a
-              href=""
+              href="/autofest"
               className=" mx-auto w-1/3 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
               <strong>Coming Soon</strong>
             </a>
@@ -63,7 +63,7 @@ export default function AutoFest() {
               Shop Merch
             </h1>
             <a
-              href=""
+              href="/autofest"
               className=" mx-auto w-1/3 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg">
               <strong>Coming Soon</strong>
             </a>
