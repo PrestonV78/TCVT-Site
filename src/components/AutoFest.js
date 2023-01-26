@@ -38,6 +38,9 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
+
+          <div className="container w-2 flex"></div>
+
           <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Vendor Regestration
@@ -48,6 +51,9 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
+
+          <div className="container w-2 flex"></div>
+
           <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Sponsor Regestration
@@ -58,7 +64,9 @@ export default function AutoFest() {
               <strong>Coming Soon</strong>
             </a>
           </div>
-          <div className="container w-3 flex"></div>
+
+          <div className="container w-2 flex"></div>
+
           <div className="container mx-auto w-1/4 flex-col flex px-10 py-5 border-4 border-white">
             <h1 className="title-font sm:text-2xl text-lg mb-4 text-white font-semibold text-center ">
               Shop Merch
@@ -79,7 +87,7 @@ export default function AutoFest() {
         </h1>
         <div className="container h-10 mx-auto flex px-10 py-5 "></div>
         <h1 className="title-font px-10 sm:text-2xl text-lg mb-4 text-black font-semibold text-center ">
-        See you in November 2023
+          See you in November 2023
         </h1>
       </div>
     </section>
