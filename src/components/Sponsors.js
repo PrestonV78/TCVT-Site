@@ -68,13 +68,13 @@ export default function Sponsors() {
       </div>
 
       <div className="container w-full mx-auto flex flex-col bg-pink-900">
-        <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
+        <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
-        <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white leading-relaxed text-center italic">
+        <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white leading-relaxed text-center italic">
           The Stripe processing fee of 2.9% + $0.30 has been added to fixed payments.
         </h1>
-        <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center italic">
+        <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
           Truck Club at Virginia Tech is a 501(c)3 organization. In short, you may be
           able to claim a deduction on your federal taxes if you make a donation!
           Payments to become an Official TCVT Sponsor are considered a donation to TCVT.
@@ -85,7 +85,8 @@ export default function Sponsors() {
       </div>
 
       <div className="container w-full flex flex-col bg-white ">
-        <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
+        <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
+        <h1 className="title-font sm:text-6xl text-3xl text-black font-bold text-center">
           Package List and Pay Link
         </h1>
         <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
