@@ -4,7 +4,7 @@ import { officers } from "../data";
 export default function Sponsors() {
   return (
     <section id="Sponsors" className="relative">
-      <div className="container mx-auto flex px-10 py-5 ">
+      <div className="container mx-auto flex-col flex px-10 py-5 ">
         <div className="container h-30 mx-auto flex px-10 py-5 "></div>
         <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
           BECOME A SPONSOR
