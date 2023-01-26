@@ -15,7 +15,7 @@ export default function Sponsors() {
       </h1>
       <div className="container h-30 mx-auto flex px-10 py-5 "></div>
       <div className="container w-full flex flex-col bg-white ">
-        
+
         <div className="container mx-auto w-4/5 flex flex-row bg-pink-900 py-5 ">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
@@ -28,7 +28,7 @@ export default function Sponsors() {
             <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
               <strong>BECOME A SPONSOR</strong>
             </h1>
-            <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
+            <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white leading-relaxed text-center ">
               Have an Impact
             </h1>
             <a
@@ -53,7 +53,7 @@ export default function Sponsors() {
             <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
               <strong>SPONSORSHIP PACKAGE</strong>
             </h1>
-            <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
+            <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white leading-relaxed text-center ">
               2022-2023
             </h1>
             <a
@@ -67,7 +67,7 @@ export default function Sponsors() {
         <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
       </div>
 
-      <div className="container w-full mx-auto flex flex-col bg-pink-900 py-5 ">
+      <div className="container w-full mx-auto flex flex-col bg-pink-900">
         <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
@@ -88,6 +88,7 @@ export default function Sponsors() {
         <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
           Package List and Pay Link
         </h1>
+        <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
       </div>
 
       <div className="container mx-auto flex flex-col bg-pink-900 py-5 ">
