@@ -4,12 +4,13 @@ import { officers } from "../data";
 export default function Sponsors() {
   return (
     <section id="Sponsors" className="relative">
-      <div className="container mx-auto flex-col flex px-10 py-5 ">
+      <div className="container w-full flex-col flex">
         <div className="container h-30 mx-auto flex px-10 py-5 "></div>
         <h1 className="title-font sm:text-6xl text-3xl text-pink-900 font-bold text-center">
           BECOME A SPONSOR
         </h1>
-        <h1 className="title-font w-2/3 px-35 mx-auto sm:text-4xl text-2xl mb-8 text-black font-semibold text-center ">
+        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <h1 className="title-font w-2/3 px-35 mx-auto sm:text-2xl text-lg mb-8 text-black font-semibold text-center ">
           We are so happy you’re interested in getting involved with our work here at Truck Club at Virginia Tech.
           There are so many ways for you to help, and we truly appreciate each and every effort. By lending your
           support, you’ll become a valuable part of our Non-Profit Organization and help to strengthen our operations.
