@@ -34,7 +34,7 @@ export default function AutoFest() {
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-sm">
               <strong>Coming Soon</strong>
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function AutoFest() {
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-sm">
               <strong>Coming Soon</strong>
             </a>
           </div>
@@ -60,7 +60,7 @@ export default function AutoFest() {
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-sm">
               <strong>Coming Soon</strong>
             </a>
           </div>
@@ -73,7 +73,7 @@ export default function AutoFest() {
             </h1>
             <a
               href="/autofest"
-              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-md">
+              className=" mx-auto w-1/2 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-sm">
               <strong>Coming Soon</strong>
             </a>
           </div>
