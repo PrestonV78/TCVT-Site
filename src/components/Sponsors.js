@@ -18,8 +18,9 @@ export default function Sponsors() {
         <div className="container h-30 mx-auto flex px-10 py-5 "></div>
 
         <div className="container w-full flex flex-col bg-white ">
-          <div className="container mx-auto flex bg-white py-5 "></div>
-            <div className="container w-1/2 flex py-5 ">
+          <div className="container h-5 mx-auto flex bg-white px-10 py-5 "></div>
+          <div className="container mx-auto w-5/6 flex flex-row bg-pink-900 py-5 ">
+            <div className="container w-1/2 flex px-10 py-5 ">
               <img
                 class="mx-auto max-w-full h-auto"
                 alt="moving"
@@ -43,7 +44,7 @@ export default function Sponsors() {
 
           <div className="container h-5 mx-auto flex bg-white px-10 py-5 "></div>
 
-          <div className="container mx-auto w-4/5 flex flex-row bg-pink-900 py-5 ">
+          <div className="container mx-auto w-5/6 flex flex-row bg-pink-900 py-5 ">
             <div className="container w-1/2 flex px-10 py-5 ">
               <img
                 class="mx-auto max-w-full h-auto"
