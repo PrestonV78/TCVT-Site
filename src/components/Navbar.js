@@ -37,7 +37,7 @@ export default function Navbar() {
           <ul class="menu">
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/"
               >
@@ -46,7 +46,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/about"
               >
@@ -55,7 +55,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/officers"
               >
@@ -64,7 +64,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/events"
               >
@@ -73,7 +73,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/services"
               >
@@ -82,7 +82,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/autofest"
               >
@@ -91,7 +91,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/sponsors"
               >
@@ -100,7 +100,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/donate"
               >
@@ -109,7 +109,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className=" text-white text-sm text-center"
+                className=" text-white text-sm text-center hover:text-amber-600"
                 style={linkStyle}
                 to="/more"
               >

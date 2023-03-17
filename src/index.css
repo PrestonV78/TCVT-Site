@@ -54,9 +54,7 @@ ul{
   align-items: center;
   align-content: center;
 }
-.nav-item:hover{
-  background-color: var(--gray);
-}
+
 .nav{
   max-height: 0;
   flex-direction: row;
