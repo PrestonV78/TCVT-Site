@@ -108,6 +108,7 @@ export default function Sponsors() {
           <div className="container mx-auto w-5/6 flex flex-row bg-pink-900 py-5 ">
             <div className="container w-1/2 flex px-10 py-5 ">
               <img
+                alt="gallery"
                 className="absolute inset-0 h-full w-full object-contain object-center"
                 src={sponsor.image}
               />
