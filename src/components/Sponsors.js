@@ -121,7 +121,66 @@ export default function Sponsors() {
             </a>
           </div>
         </div>
+
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
+
+        <div className="container mx-auto flex-row flex px-10">
+          <div className="container w-1/2 flex flex-col px-10 py-5 ">
+            <h1 className="title-font text-decoration-line:underline sm:text-4xl text-2xl text-pink-900 font-bold text-center">
+              SILVER SPONSOR
+            </h1>
+            <h1 className="title-font sm:text-2xl text-lg text-black font-bold text-center">
+              $50
+              <br></br>
+              Charged $51.80
+            </h1>
+          </div>
+          <div className="container w-1/2 flex-col flex content-center items-center px-10">
+            <p className="test-black">
+              To be considered a Silver Tier Official Sponsor you are required
+              to make a payment of $50 to Truck Club at Virginia Tech. A total
+              of $25 of this payment will be donated to TCVT's Scholarship Fund.
+              The remaining $25 is donated to Truck Club at Virginia Tech.
+            </p>
+            <div className="container h-5 flex px-10 "></div>
+            <a
+              href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
+              className="mx-auto w-2/3 inline-flex text-white text-align:center bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+            >
+              <strong>Make Payment</strong>
+            </a>
+          </div>
+        </div>
+
+        <div className="container h-10  flex bg-white px-10 py-5 "></div>
+
+        <div className="container mx-auto flex-row flex px-10">
+          <div className="container w-1/2 flex flex-col px-10 py-5 ">
+            <h1 className="title-font text-decoration-line:underline sm:text-4xl text-2xl text-pink-900 font-bold text-center">
+              BRONZE SPONSOR
+            </h1>
+            <h1 className="title-font sm:text-2xl text-lg text-black font-bold text-center">
+              $10
+              <br></br>
+              Charged $10.61
+            </h1>
+          </div>
+          <div className="container w-1/2 flex-col flex content-center items-center px-10">
+            <p className="test-black">
+              To be considered a Bronze Tier Official Sponsor you are required
+              to make a payment of $10 to Truck Club at Virginia Tech. A total
+              of $5 of this payment will be donated to TCVT's Scholarship Fund.
+              The remaining $5 is donated to Truck Club at Virginia Tech.
+            </p>
+            <div className="container h-5 flex px-10 "></div>
+            <a
+              href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
+              className="mx-auto w-2/3 inline-flex text-white text-align:center bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+            >
+              <strong>Make Payment</strong>
+            </a>
+          </div>
+        </div>
       </div>
 
       <div className="container w-full flex flex-col bg-pink-900 py-5 max-w-full">
