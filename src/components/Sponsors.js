@@ -112,10 +112,10 @@ export default function Sponsors() {
               $50 of this payment will be donated to TCVT's Scholarship Fund.
               The remaining $25 is donated to Truck Club at Virginia Tech.
             </p>
-            <div className="container h-2 flex px-10 "></div>
+            <div className="container h-5 flex px-10 "></div>
             <a
               href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
-              className="mx-auto w-2/3 inline-flex text-white text-center bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+              className="mx-auto w-2/3 inline-flex text-white text-align:center bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
             >
               <strong>Make Payment</strong>
             </a>
