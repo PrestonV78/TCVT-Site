@@ -114,7 +114,7 @@ export default function Sponsors() {
             </p>
             <a
               href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
-              className=" mx-auto w-2/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+              className="align-content:center mx-auto w-2/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
             >
               <strong>Make Payment</strong>
             </a>
