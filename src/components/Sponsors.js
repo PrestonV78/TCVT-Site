@@ -10,7 +10,7 @@ export default function Sponsors() {
           BECOME A SPONSOR
         </h1>
         <div className="container h-5  flex px-10 py-5 "></div>
-        <h1 className="title-font w-3/4 px-35  sm:text-2xl text-lg mb-8 text-black font-semibold text-center ">
+        <h1 className="title-font w-3/4 px-35 mx-auto sm:text-2xl text-lg mb-8 text-black font-semibold text-center ">
           We are so happy you’re interested in getting involved with our work
           here at Truck Club at Virginia Tech. There are so many ways for you to
           help, and we truly appreciate each and every effort. By lending your
@@ -21,7 +21,7 @@ export default function Sponsors() {
 
         <div className="container w-full flex flex-col bg-white ">
           <div className="container h-5  flex bg-white px-10 py-5 "></div>
-          <div className="container  w-5/6 flex flex-row bg-pink-900 py-5 ">
+          <div className="container flex flex-row bg-pink-900 py-5 ">
             <div className="container w-1/2 flex px-10 py-5 ">
               <img
                 class="mx-auto max-w-full h-auto"
@@ -47,7 +47,7 @@ export default function Sponsors() {
 
           <div className="container h-5  flex bg-white px-10 py-5 "></div>
 
-          <div className="container  w-5/6 flex flex-row bg-pink-900 py-5 ">
+          <div className="container flex flex-row bg-pink-900 py-5 ">
             <div className="container w-1/2 flex px-10 py-5 ">
               <img
                 class="mx-auto max-w-full h-auto"
@@ -75,7 +75,7 @@ export default function Sponsors() {
         </div>
       </div>
 
-      <div className="container w-full my-15 flex flex-col bg-pink-900 max-w-full">
+      <div className="container w-full py-15 flex flex-col bg-pink-900 max-w-full">
         <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
@@ -83,7 +83,7 @@ export default function Sponsors() {
           The Stripe processing fee of 2.9% + $0.30 has been added to fixed
           payments.
         </h1>
-        <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
+        <h1 className="title-font px-35 mx-auto sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
           Payments to become an Official TCVT Sponsor are considered a donation
           to TCVT. Our organization accepts cash, check, Venmo, or credit card
           via Stripe payments. Please contact us via email at
@@ -99,13 +99,13 @@ export default function Sponsors() {
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
       </div>
 
-      <div className="container w-full mx-0 mr-0 flex flex-col bg-pink-900 py-5 max-w-full">
+      <div className="container w-full flex flex-col bg-pink-900 py-5 max-w-full">
         <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
           Sponsor List
         </h1>
 
         {sponsors.map((sponsor) => (
-          <div className="container  w-5/6 flex flex-row bg-pink-900 py-5 ">
+          <div className="container flex flex-row bg-pink-900 py-5 ">
             <div className="container w-1/2 flex px-10 py-5 ">
               <img
                 alt="gallery"
