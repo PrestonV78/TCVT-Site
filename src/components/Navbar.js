@@ -109,15 +109,6 @@ export default function Navbar() {
               <NavLink
                 className=" text-white text-sm text-center"
                 style={linkStyle}
-                to="/community"
-              >
-                Community Action
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className=" text-white text-sm text-center"
-                style={linkStyle}
                 to="/donate"
               >
                 Donate
