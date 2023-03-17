@@ -117,10 +117,10 @@ export default function Sponsors() {
               <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
                 <strong>{sponsor.title}</strong>
               </h1>
-              <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white leading-relaxed text-center ">
+              <h1 className="title-font px-35 mx-35 sm:text-2xl text-lg mb-8 text-white leading-relaxed text-center ">
                 {sponsor.subtitle}
               </h1>
-              <p className="leading-relaxed text-gray-400">
+              <p className="leading-relaxed text-white">
                 {sponsor.description}
               </p>
             </div>
