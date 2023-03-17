@@ -46,7 +46,7 @@ ul{
   align-content: center;
   align-items: center;
 }
-.menu a{
+.nav-item {
   display: block;
   flex-direction: row;
   padding: 0px;
@@ -54,7 +54,7 @@ ul{
   align-items: center;
   align-content: center;
 }
-.menu a:hover{
+.nav-item:hover{
   background-color: var(--gray);
 }
 .nav{
