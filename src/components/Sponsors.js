@@ -97,7 +97,7 @@ export default function Sponsors() {
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
         <div className="container mx-auto flex-row flex px-10">
           <div className="container w-1/2 flex flex-col px-10 py-5 ">
-            <h1 className="title-font sm:text-4xl text-2xl text-pink-900 font-bold text-center">
+            <h1 className="title-font text-decoration-line:underline sm:text-4xl text-2xl text-pink-900 font-bold text-center">
               GOLD SPONSOR
             </h1>
             <h1 className="title-font sm:text-2xl text-lg text-black font-bold text-center">
@@ -112,9 +112,10 @@ export default function Sponsors() {
               $50 of this payment will be donated to TCVT's Scholarship Fund.
               The remaining $25 is donated to Truck Club at Virginia Tech.
             </p>
+            <div className="container h-2 flex px-10 "></div>
             <a
               href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
-              className="align-content:center mx-auto w-2/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+              className="mx-auto w-2/3 inline-flex text-white text-center bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
             >
               <strong>Make Payment</strong>
             </a>
