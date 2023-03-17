@@ -12,7 +12,6 @@ import Events from "./components/Events";
 import Services from "./components/Services";
 import AutoFest from "./components/AutoFest";
 import Sponsors from "./components/Sponsors";
-import Community from "./components/Community";
 import Donate from "./components/Donate";
 import More from "./components/More";
 
@@ -28,7 +27,6 @@ ReactDOM.render(
       <Route path="/services" element={<Services />} />
       <Route path="/autofest" element={<AutoFest />} />
       <Route path="/sponsors" element={<Sponsors />} />
-      <Route path="/community" element={<Community />} />
       <Route path="/donate" element={<Donate />} />
       <Route path="/more" element={<More />} />
     </Routes>
