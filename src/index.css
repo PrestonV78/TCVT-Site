@@ -49,10 +49,12 @@ ul{
 .nav-item {
   display: block;
   flex-direction: row;
-  padding: 0px;
+  padding: 10px;
   color: var(--white);
-  align-items: center;
-  align-content: center;
+}
+
+.nav-item:hover {
+  color: var(--amber-600);
 }
 
 .nav{
