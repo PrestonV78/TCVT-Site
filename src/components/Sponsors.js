@@ -10,7 +10,7 @@ export default function Sponsors() {
           BECOME A SPONSOR
         </h1>
         <div className="container h-5 mx-auto flex px-10 py-5 "></div>
-        <h1 className="title-font w-2/3 px-35 mx-auto sm:text-2xl text-lg mb-8 text-black font-semibold text-center ">
+        <h1 className="title-font w-3/4 px-35 mx-auto sm:text-2xl text-lg mb-8 text-black font-semibold text-center ">
           We are so happy you’re interested in getting involved with our work
           here at Truck Club at Virginia Tech. There are so many ways for you to
           help, and we truly appreciate each and every effort. By lending your
@@ -105,18 +105,19 @@ export default function Sponsors() {
         </h1>
 
         {sponsors.map((sponsor) => (
-          <div className="container w-full lg:w-1/3 h-eqw my-4 flex relative">
-            <img
-              alt="gallery"
-              className="absolute inset-0 h-full w-full object-contain object-center"
-              src={sponsor.image}
-            />
-            <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
-              <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
+          <div className="container mx-auto w-5/6 flex flex-row bg-pink-900 py-5 ">
+            <div className="container w-1/2 flex px-10 py-5 ">
+              <img
+                className="absolute inset-0 h-full w-full object-contain object-center"
+                src={sponsor.image}
+              />
+            </div>
+            <div className="container w-1/2 flex-col flex px-10 py-5 ">
+              <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white font-semibold text-center ">
+                <strong>{sponsor.title}</strong>
+              </h1>
+              <h1 className="title-font px-35 mx-35 sm:text-4xl text-2xl mb-8 text-white leading-relaxed text-center ">
                 {sponsor.subtitle}
-              </h2>
-              <h1 className="title-font text-lg font-medium text-white mb-3">
-                {sponsor.title}
               </h1>
               <p className="leading-relaxed text-gray-400">
                 {sponsor.description}
