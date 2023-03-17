@@ -75,7 +75,7 @@ export default function Sponsors() {
         </div>
       </div>
 
-      <div className="container w-full mx-0 my-15 flex flex-col bg-pink-900">
+      <div className="container w-full mx-0 mr-0 my-15 flex flex-col bg-pink-900">
         <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
@@ -99,7 +99,7 @@ export default function Sponsors() {
         <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
       </div>
 
-      <div className="container w-full mx-0 flex flex-col bg-pink-900 py-5 ">
+      <div className="container w-full mx-0 mr-0 flex flex-col bg-pink-900 py-5 ">
         <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
           Sponsor List
         </h1>
