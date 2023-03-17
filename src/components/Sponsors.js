@@ -76,7 +76,7 @@ export default function Sponsors() {
       </div>
 
       <div className="container w-full py-15 flex flex-col bg-pink-900 max-w-full">
-      <div className="container h-10  flex bg-pink-900 px-10 py-5 "></div>
+        <div className="container h-10  flex bg-pink-900 px-10 py-5 "></div>
         <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
@@ -90,13 +90,37 @@ export default function Sponsors() {
           via Stripe payments. Please contact us via email at
           truckclubatvt@gmail.com if you have any questions or concerns.
         </h1>
+        <div className="container h-10  flex bg-pink-900 px-10 py-5 "></div>
       </div>
 
       <div className="container w-full flex flex-col bg-white max-w-full">
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
-        <h1 className="title-font sm:text-6xl text-3xl text-black font-bold text-center">
-          Package List and Pay Link
-        </h1>
+        <div className="container mx-auto flex-row flex px-10">
+          <div className="container w-1/2 flex px-10 py-5 ">
+            <h1 className="title-font sm:text-4xl text-2xl text-pink-900 font-bold text-center">
+              GOLD SPONSOR
+            </h1>
+            <h1 className="title-font sm:text-2xl text-lg text-black font-bold text-center">
+              $75<br></br>
+              Charged $77.55
+            </h1>
+          </div>
+          <div className="container w-1/2 flex-col flex content-center items-center px-10">
+            <p className="test-black">
+              To be considered a Gold Tier Official Sponsor you are required to
+              make a payment of $75 to Truck Club at Virginia Tech. A total of
+              $50 of this payment will be donated to TCVT's Scholarship Fund.
+              The remaining $25 is donated to Truck Club at Virginia Tech.
+            </p>
+            <div className="container h-2 mx-auto flex px-10 py-5 "></div>
+            <a
+              href="https://donate.stripe.com/3cs5mg57m3UJ55CcN2"
+              className=" mx-auto w-1/3 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:opacity-50 rounded text-lg"
+            >
+              <strong>Make Payment</strong>
+            </a>
+          </div>
+        </div>
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
       </div>
 
