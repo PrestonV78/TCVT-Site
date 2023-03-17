@@ -10,7 +10,7 @@ const linkStyle = {
 export default function Navbar() {
   return (
     <header className="bg-black md: top-5 z-10">
-      <div className="container mx-auto flex w-2/5 py-2 flex-row items-center">
+      <div className="container mx-auto flex w-1/4 py-2 flex-row items-center">
         <img
           className="object-center object-cover rounded"
           alt="badge"
@@ -23,7 +23,7 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="container h-px mx-auto flex px-10 py-.1 bg-white items-center"></div>
-      <div className="container pb-4 bg-black mx-auto flex flex-wrap flex-col md:flex-row justify-between">
+      <div className="container pb-4 bg-black mx-auto flex flex-row items-center">
         {/* <!-- Hamburger icon --> */}
         <input class="side-menu" type="checkbox" id="side-menu" />
         <label class="hamb" for="side-menu">
@@ -35,6 +35,13 @@ export default function Navbar() {
           class="nav"
         >
           <ul class="menu">
+            <li>
+              <NavLink
+                className=" text-black text-sm text-center"
+              >
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink
                 className=" text-white text-sm text-center"
