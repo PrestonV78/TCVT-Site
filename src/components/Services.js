@@ -105,7 +105,7 @@ export default function Services() {
             COMMUNITY ACTION
           </h1>
         </div>
-        <div className="container h-10 mx-auto flex px-10 py-5 "></div>
+        <div className="container h-10 mx-auto flex px-10 py-5 bg-white"></div>
         <div className="container mx-auto flex-row flex px-10 py-5 ">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
@@ -119,7 +119,7 @@ export default function Services() {
             <h1 className="title-font sm:text-2xl text-lg text-white font-bold text-center">
               TCVT'S SCHOLARSHIP
             </h1>
-            <p>
+            <p className="text-white">
               The founders of the Truck Club at Virginia Tech were given a
               chance to succeed by their very first sponsor. We would like to
               repay that forward and give a high schooler that has declared to
@@ -153,7 +153,7 @@ export default function Services() {
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               TCVT ADOPTS A HIGHWAY!
             </h1>
-            <p>
+            <p className="text-white">
               TCVT has joined the Adopt A Highway program in the state of
               Virginia! The organization has officially adopted Route 460 from
               Southgate to Tom's Creek in Montgomery County totaling 3.0 miles.
@@ -183,7 +183,7 @@ export default function Services() {
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               THE BUBBY INITIATIVE
             </h1>
-            <p>
+            <p className="text-white">
               This initiative was started by Sebastian Buenano who was a founder
               and is the current President of Truck Club at Virginia Tech. The
               initiative is named after Sebastian's best friend who was a welsh
@@ -216,7 +216,7 @@ export default function Services() {
             <h1 className="title-font sm:text-4xl text-2xl text-white font-bold text-center">
               TOYS FOR TOTS INITIATIVE
             </h1>
-            <p>
+            <p className="text-white">
               This year Truck Club at Virginia Tech (TCVT) partnered with Toys
               For Tots in the effort to provide underprivileged kids with gifts
               this Christmas season. We accepted donations up to December 11th.
