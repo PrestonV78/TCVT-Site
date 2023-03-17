@@ -105,7 +105,7 @@ export default function Services() {
             COMMUNITY ACTION
           </h1>
         </div>
-        <div className="container h-10 mx-auto flex px-10 py-5 bg-white"></div>
+        <div className="container h-10 flex px-10 py-5 bg-white"></div>
         <div className="container mx-auto flex-row flex px-10 py-5 ">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
@@ -242,6 +242,7 @@ export default function Services() {
             </a>
           </div>
         </div>
+        <div className="container h-10 flex px-10 py-5"></div>
       </div>
     </section>
   );
