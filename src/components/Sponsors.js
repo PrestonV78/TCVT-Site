@@ -84,7 +84,7 @@ export default function Sponsors() {
           The Stripe processing fee of 2.9% + $0.30 has been added to fixed
           payments.
         </h1>
-        <h1 className="title-font px-35 mx-auto sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
+        <h1 className="title-font px-35 mx-15 sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
           Payments to become an Official TCVT Sponsor are considered a donation
           to TCVT. Our organization accepts cash, check, Venmo, or credit card
           via Stripe payments. Please contact us via email at
@@ -181,6 +181,9 @@ export default function Sponsors() {
             </a>
           </div>
         </div>
+        
+        <div className="container h-10  flex bg-white px-10 py-5 "></div>
+
       </div>
 
       <div className="container w-full flex flex-col bg-pink-900 py-5 max-w-full">
