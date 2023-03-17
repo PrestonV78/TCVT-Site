@@ -105,11 +105,11 @@ export default function Services() {
             COMMUNITY ACTION
           </h1>
         </div>
-        <div className="container h-10 flex px-10 py-5 bg-white"></div>
+        <div className="container h-10 flex px-10 py-5"></div>
         <div className="container mx-auto flex-row flex px-10 py-5 ">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
-              class="mx-auto max-w-full h-auto"
+              class="object-contain mx-auto max-w-full h-auto"
               alt="moving"
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/scholarship.webp"
             />
@@ -143,7 +143,7 @@ export default function Services() {
         <div className="container mx-auto flex-row flex px-10">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
-              class="mx-auto max-w-full h-auto"
+              class="object-contain mx-auto max-w-full h-auto"
               alt="pallet"
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/adopthighway.webp"
             />
@@ -173,7 +173,7 @@ export default function Services() {
         <div className="container mx-auto flex-row flex px-10">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
-              class="mx-auto max-w-full h-auto"
+              class="object-contain mx-auto max-w-full h-auto"
               alt="pallet"
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/bubby.webp"
             />
@@ -206,7 +206,7 @@ export default function Services() {
         <div className="container mx-auto flex-row flex px-10">
           <div className="container w-1/2 flex px-10 py-5 ">
             <img
-              class="mx-auto max-w-full h-auto"
+              class="object-contain mx-auto max-w-full h-auto"
               alt="pallet"
               src="https://raw.githubusercontent.com/PrestonV78/TCVT-Site/main/public/TfT.webp"
             />
