@@ -35,13 +35,6 @@ export default function Navbar() {
           class="nav"
         >
           <ul class="menu">
-            <li>
-              <NavLink
-                className=" text-black text-sm text-center"
-              >
-                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-              </NavLink>
-            </li>
             <li className="nav-item">
               <NavLink
                 className=" text-white text-sm text-center"

@@ -41,6 +41,8 @@ ul{
   position: fixed;
   background-color: var(--black);
   overflow: hidden;
+  align-content: center;
+  align-items: center;
 }
 .menu a{
   display: block;
