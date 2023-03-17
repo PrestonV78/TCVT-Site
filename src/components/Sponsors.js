@@ -73,57 +73,57 @@ export default function Sponsors() {
 
           <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
         </div>
+      </div>
 
-        <div className="container w-full py-15 mx-auto flex flex-col bg-pink-900">
-          <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
-            SPONSORSHIP PAYMENT
-          </h1>
-          <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white leading-relaxed text-center italic">
-            The Stripe processing fee of 2.9% + $0.30 has been added to fixed
-            payments.
-          </h1>
-          <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
-            Payments to become an Official TCVT Sponsor are considered a
-            donation to TCVT. Our organization accepts cash, check, Venmo, or
-            credit card via Stripe payments. Please contact us via email at
-            truckclubatvt@gmail.com if you have any questions or concerns.
-          </h1>
-        </div>
+      <div className="container w-full pt-15 my:15 mx-auto flex flex-col bg-pink-900">
+        <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
+          SPONSORSHIP PAYMENT
+        </h1>
+        <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white leading-relaxed text-center italic">
+          The Stripe processing fee of 2.9% + $0.30 has been added to fixed
+          payments.
+        </h1>
+        <h1 className="title-font px-35 mx-35 sm:text-xl text-lg mb-8 text-white font-semibold text-center italic">
+          Payments to become an Official TCVT Sponsor are considered a donation
+          to TCVT. Our organization accepts cash, check, Venmo, or credit card
+          via Stripe payments. Please contact us via email at
+          truckclubatvt@gmail.com if you have any questions or concerns.
+        </h1>
+      </div>
 
-        <div className="container w-full flex flex-col bg-white ">
-          <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
-          <h1 className="title-font sm:text-6xl text-3xl text-black font-bold text-center">
-            Package List and Pay Link
-          </h1>
-          <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
-        </div>
+      <div className="container w-full flex flex-col bg-white ">
+        <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
+        <h1 className="title-font sm:text-6xl text-3xl text-black font-bold text-center">
+          Package List and Pay Link
+        </h1>
+        <div className="container h-10 mx-auto flex bg-white px-10 py-5 "></div>
+      </div>
 
-        <div className="container mx-auto flex flex-col bg-pink-900 py-5 ">
-          <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
-            Sponsor List
-          </h1>
+      <div className="container mx-auto flex flex-col bg-pink-900 py-5 ">
+        <h1 className="title-font sm:text-6xl text-3xl text-white font-bold text-center">
+          Sponsor List
+        </h1>
 
-          {sponsors.map((sponsor) => (
-            <div className="container w-full lg:w-1/3 h-eqw my-4 flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 h-full w-full object-contain object-center"
-                src={sponsor.image}
-              />
-              <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
-                  {sponsor.subtitle}
-                </h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">
-                  {sponsor.title}
-                </h1>
-                <p className="leading-relaxed text-gray-400">
-                  {sponsor.description}
-                </p>
-              </div>
+        {sponsors.map((sponsor) => (
+          <div className="container w-full lg:w-1/3 h-eqw my-4 flex relative">
+            <img
+              alt="gallery"
+              className="absolute inset-0 h-full w-full object-contain object-center"
+              src={sponsor.image}
+            />
+            <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-white bg-pink-900 opacity-0 hover:opacity-100">
+              <h2 className="tracking-widest text-sm title-font font-medium text-white mb-1">
+                {sponsor.subtitle}
+              </h2>
+              <h1 className="title-font text-lg font-medium text-white mb-3">
+                {sponsor.title}
+              </h1>
+              <p className="leading-relaxed text-gray-400">
+                {sponsor.description}
+              </p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );
