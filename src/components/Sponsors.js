@@ -96,7 +96,7 @@ export default function Sponsors() {
       <div className="container w-full flex flex-col bg-white max-w-full">
         <div className="container h-10  flex bg-white px-10 py-5 "></div>
         <div className="container mx-auto flex-row flex px-10">
-          <div className="container w-1/2 flex px-10 py-5 ">
+          <div className="container w-1/2 flex flex-col px-10 py-5 ">
             <h1 className="title-font sm:text-4xl text-2xl text-pink-900 font-bold text-center">
               GOLD SPONSOR
             </h1>
