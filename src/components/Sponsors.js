@@ -76,6 +76,7 @@ export default function Sponsors() {
       </div>
 
       <div className="container w-full py-15 flex flex-col bg-pink-900 max-w-full">
+      <div className="container h-10  flex bg-pink-900 px-10 py-5 "></div>
         <h1 className="title-font sm:text-5xl text-3xl text-white font-bold text-center">
           SPONSORSHIP PAYMENT
         </h1>
